@@ -1,5 +1,5 @@
 # Tiny Tapeout project information (analog template, yaml_version 6)
-project:Ring-VCO ΔΣ ADC 
+project: 
   title:        "Ring-VCO Delta-Sigma ADC with on-chip shift-add linearization"
   author:       "Dr Geetha K.S ,Dr Shylashree N,Vishnu S Bharadwaj, Shreekara H, Yash C Kerure, Srikar Majeti,"        # your name
   discord:      "pailwaankiccha4711"        # your discord username
