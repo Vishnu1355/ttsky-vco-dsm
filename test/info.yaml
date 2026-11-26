@@ -1,0 +1,68 @@
+# Tiny Tapeout project information (analog template, yaml_version 6)
+project:Ring-VCO ΔΣ ADC 
+  title:        "Ring-VCO Delta-Sigma ADC with on-chip shift-add linearization"
+  author:       "Dr Geetha K.S ,Dr Shylashree N,Vishnu S Bharadwaj, Shreekara H, Yash C Kerure, Srikar Majeti,"        # your name
+  discord:      "pailwaankiccha4711"        # your discord username
+  description:  "Pseudo-differential ring-VCO ADC, sinc2 decimator, shift-add droop fix and cubic corrector on one adder"
+  language:     "Analog"  # analog/mixed-signal (custom GDS)
+  clock_hz:     50000000  # 50 MHz sample clock
+
+  # Fixed at 1x2 (maximum allowed for this project)
+  tiles: "1x2"
+
+  analog_pins: 2          # ua[0] = Vin+, ua[1] = Vin-
+  uses_vapwr: false
+
+  # Must start with tt_um_ and should include your GitHub username, e.g. tt_um_<username>_vco_dsm
+  top_module:  "tt_um_vco_dsm"
+
+  source_files:
+    - "project.v"
+    - "vco_dsm_digital.v"
+    - "ring_sync.v"
+    - "phase_dec.v"
+    - "front_end.v"
+    - "backend.v"
+    - "out_if.v"
+
+pinout:
+  # Inputs
+  ui[0]: "c2 trim term 1, offset bit 0"
+  ui[1]: "c2 trim term 1, offset bit 1"
+  ui[2]: "c2 trim term 1, offset bit 2"
+  ui[3]: "c2 trim term 1, sign (1 = negative)"
+  ui[4]: "c2 trim term 1, enable"
+  ui[5]: "bypass correction (1 = off, for on/off A/B)"
+  ui[6]: "mode bit 0"
+  ui[7]: "mode bit 1 (00 ADC, 01 ring phase, 10 ramp, 11 raw code)"
+
+  # Outputs
+  uo[0]: "data bit 0"
+  uo[1]: "data bit 1"
+  uo[2]: "data bit 2"
+  uo[3]: "data bit 3"
+  uo[4]: "data bit 4"
+  uo[5]: "data bit 5"
+  uo[6]: "data bit 6"
+  uo[7]: "data bit 7"
+
+  # Bidirectional pins
+  uio[0]: "c2 trim term 2, offset bit 0 (input)"
+  uio[1]: "c2 trim term 2, offset bit 1 (input)"
+  uio[2]: "c2 trim term 2, offset bit 2 (input)"
+  uio[3]: "c2 trim term 2, sign (input)"
+  uio[4]: "c2 trim term 2, enable (input)"
+  uio[5]: "byte select: 0 high byte, 1 low byte (output)"
+  uio[6]: "frame: toggles once per sample (output)"
+  uio[7]: "saturation flag (output)"
+
+  # Analog pins - make sure to also set "analog_pins" above
+  ua[0]: "Vin+"
+  ua[1]: "Vin-"
+  ua[2]: ""
+  ua[3]: ""
+  ua[4]: ""
+  ua[5]: ""
+
+# Do not change!
+yaml_version: 6
