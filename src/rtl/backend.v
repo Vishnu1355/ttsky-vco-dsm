@@ -1,7 +1,7 @@
 // backend.v -- minimal back end for a 1x2 TinyTapeout tile (lean3 + correction bypass).
 //   d_in (6 b, 50 MHz) -> 2 integrators (18 b) -> every 64 clocks, on ONE adder + ONE register R:
 //   2 combs -> droop comp y = 1.375 w[n-1] - 0.1875 (w[n] + w[n-2]) -> |y| -> y^2, y^3 (shift-add)
-//   -> out = y + k3 y^3 + k2 y^2  (k3 hard-wired 2^-3 - 2^-7 on p3; k2 = two cfg terms) -> 16-bit out.
+//   -> out = y + k3 y^3 + k2 y^2  (k3 hard-wired 2^-5 - 2^-7 on p3 [Option A, retuned for the SKY130 ring_pair; was 2^-3 - 2^-7]; k2 = two cfg terms)
 // Bit-exact with lean3_golden.py.  Sequence: 2 + 5 + 1 + 32 + 4 + 1 = 45 of 64 clocks.
 `default_nettype none
 module backend #(parameter B = 18, parameter F = 16) (
@@ -36,7 +36,7 @@ module backend #(parameter B = 18, parameter F = 16) (
       S_Y3:   begin opb = wh1 >>> 3; end                      // y
       S_ABS:  begin opa = 0; opb = R; sub = 1; end
       S_M1, S_M2: begin opa = {{(B-F-1){1'b0}}, acc}; opb = b[0] ? {{(B-F){1'b0}}, a} : 0; end
-      S_A1:   begin opb = bypass ? 0 : {{(B-F){1'b0}}, p3 >> 3}; sub = sgn; end
+      S_A1:   begin opb = bypass ? 0 : {{(B-F){1'b0}}, p3 >> 5}; sub = sgn; end   // Option A: k3 = 2^-5 - 2^-7
       S_A2:   begin opb = bypass ? 0 : {{(B-F){1'b0}}, p3 >> 7}; sub = ~sgn; end
       S_A3:   begin opb = (c2_t1[4] && !bypass) ? {{(B-F){1'b0}}, u1} : 0; sub = c2_t1[3]; end
       S_A4:   begin opb = (c2_t2[4] && !bypass) ? {{(B-F){1'b0}}, u2} : 0; sub = c2_t2[3]; end

@@ -1,0 +1,1972 @@
+* NGSPICE file created from ring_pair_tt.ext - technology: sky130A
+
+.subckt ring_pair_tt tapN[0] tapP[0] tapN[1] tapP[1] tapN[2] tapP[2] tapN[3] tapP[3]
++ tapN[4] tapP[4] tapN[5] tapP[5] tapN[6] tapP[6] tapN[7] tapP[7] tapN[8] tapP[8]
++ tapN[9] tapP[9] tapN[10] tapP[10] tapN[11] tapP[11] tapN[12] tapP[12] tapN[13] tapP[13]
++ tapN[14] tapP[14] VGND VDPWR vinp vinn
+X0 ring_pair_0/dev_pc_86/G ring_pair_0/dev_pc_85/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=0.15
+X1 tapP[10] ring_pair_0/dev_pc_74/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=12.9108 ps=150.52 w=0.42 l=0.15
+X2 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_63/G ring_pair_0/dev_ns_37/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X3 ring_pair_0/dev_pc_53/G ring_pair_0/dev_pc_57/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X4 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_30/G ring_pair_0/dev_ns_18/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X5 tapN[8] ring_pair_0/dev_pc_41/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X6 ring_pair_0/dev_ps_37/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.2436 ps=2.26 w=0.84 l=0.5
+X7 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=1.9488 pd=18.08 as=25.8216 ps=239.56 w=0.84 l=0.5
+X8 ring_pair_0/dev_ps_15/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.4872 pd=4.52 as=0 ps=0 w=0.84 l=0.5
+X9 ring_pair_0/dev_pc_65/G ring_pair_0/dev_pc_69/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X10 tapP[1] ring_pair_0/dev_pc_53/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X11 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_6/G ring_pair_0/dev_nc_6/D VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X12 tapN[3] ring_pair_0/dev_pc_20/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X13 ring_pair_0/dev_pc_32/G ring_pair_0/dev_pc_36/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X14 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_42/G ring_pair_0/dev_ns_22/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X15 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=1.9488 pd=18.08 as=0 ps=0 w=0.84 l=0.5
+X16 tapP[8] ring_pair_0/dev_pc_86/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X17 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_75/G ring_pair_0/dev_ns_41/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X18 ring_pair_0/dev_ps_38/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.4872 pd=4.52 as=0 ps=0 w=0.84 l=0.5
+X19 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X20 ring_pair_0/dev_ps_16/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.4872 pd=4.52 as=0 ps=0 w=0.84 l=0.5
+X21 ring_pair_0/dev_pc_8/G ring_pair_0/dev_pc_7/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X22 ring_pair_0/dev_ps_8/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.4872 pd=4.52 as=0 ps=0 w=0.84 l=0.5
+X23 ring_pair_0/dev_pc_88/G ring_pair_0/dev_pc_87/G ring_pair_0/dev_ns_45/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X24 ring_pair_0/dev_pc_77/G ring_pair_0/dev_pc_81/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X25 tapP[3] ring_pair_0/dev_pc_65/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X26 ring_pair_0/dev_pc_55/G ring_pair_0/dev_pc_61/G ring_pair_0/dev_ns_34/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X27 ring_pair_0/dev_pc_11/G ring_pair_0/dev_pc_9/S VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X28 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_28/G ring_pair_0/dev_ns_15/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X29 tapN[5] ring_pair_0/dev_pc_32/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X30 ring_pair_0/dev_pc_44/G ring_pair_0/dev_pc_43/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X31 ring_pair_0/dev_ps_39/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.4872 pd=4.52 as=0 ps=0 w=0.84 l=0.5
+X32 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X33 ring_pair_0/dev_ps_17/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.4872 pd=4.52 as=0 ps=0 w=0.84 l=0.5
+X34 tapN[1] ring_pair_0/dev_pc_8/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X35 ring_pair_0/dev_ps_9/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.4872 pd=4.52 as=0 ps=0 w=0.84 l=0.5
+X36 ring_pair_0/dev_pc_89/G ring_pair_0/dev_pc_88/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X37 tapP[5] ring_pair_0/dev_pc_77/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X38 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_73/G ring_pair_0/dev_ns_38/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X39 ring_pair_0/dev_pc_56/G ring_pair_0/dev_pc_55/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X40 tapN[13] ring_pair_0/dev_pc_11/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X41 ring_pair_0/dev_pc_23/G ring_pair_0/dev_pc_22/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X42 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_40/G ring_pair_0/dev_ns_19/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X43 tapN[7] ring_pair_0/dev_pc_44/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X44 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X45 ring_pair_0/dev_ps_18/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.4872 pd=4.52 as=0 ps=0 w=0.84 l=0.5
+X46 tapP[7] ring_pair_0/dev_pc_89/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X47 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_85/G ring_pair_0/dev_ns_42/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X48 ring_pair_0/dev_pc_68/G ring_pair_0/dev_pc_67/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X49 tapP[13] ring_pair_0/dev_pc_56/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X50 ring_pair_0/dev_pc_51/G ring_pair_0/dev_pc_49/G ring_pair_0/dev_ns_31/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X51 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_9/G ring_pair_0/dev_nc_9/D VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X52 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_7/G ring_pair_0/dev_ns_12/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X53 tapN[11] ring_pair_0/dev_pc_23/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X54 ring_pair_0/dev_pc_35/G ring_pair_0/dev_pc_34/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X55 ring_pair_0/dev_ps_19/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.4872 pd=4.52 as=0 ps=0 w=0.84 l=0.5
+X56 ring_pair_0/dev_pc_80/G ring_pair_0/dev_pc_79/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X57 tapP[11] ring_pair_0/dev_pc_68/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X58 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_57/G ring_pair_0/dev_ns_35/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X59 ring_pair_0/dev_pc_47/G ring_pair_0/dev_pc_51/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X60 ring_pair_0/dev_pc_14/G ring_pair_0/dev_pc_18/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X61 ring_pair_0/dev_pc_30/G ring_pair_0/dev_pc_24/G ring_pair_0/dev_ns_16/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X62 tapN[9] ring_pair_0/dev_pc_35/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X63 ring_pair_0/dev_ps_9/G vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.1218 ps=1.42 w=0.42 l=0.5
+X64 ring_pair_0/dev_pc_75/G ring_pair_0/dev_pc_69/G ring_pair_0/dev_ns_39/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X65 ring_pair_0/dev_pc_59/G ring_pair_0/dev_pc_63/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X66 tapP[0] ring_pair_0/dev_pc_47/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X67 tapN[2] ring_pair_0/dev_pc_14/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X68 ring_pair_0/dev_pc_26/G ring_pair_0/dev_pc_30/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X69 ring_pair_0/dev_pc_42/G ring_pair_0/dev_pc_36/G ring_pair_0/dev_ns_20/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X70 ring_pair_0/dev_ps_9/G vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0.9744 pd=11.36 as=0 ps=0 w=0.42 l=0.5
+X71 tapP[2] ring_pair_0/dev_pc_59/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X72 ring_pair_0/dev_pc_49/G ring_pair_0/dev_pc_55/G ring_pair_0/dev_ns_32/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X73 ring_pair_0/dev_pc_9/G ring_pair_0/dev_pc_22/G ring_pair_0/dev_ns_13/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X74 tapN[4] ring_pair_0/dev_pc_26/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X75 ring_pair_0/dev_pc_38/G ring_pair_0/dev_pc_42/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X76 ring_pair_0/dev_ps_9/G vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X77 ring_pair_0/dev_pc_50/G ring_pair_0/dev_pc_49/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X78 ring_pair_0/dev_pc_17/G ring_pair_0/dev_pc_9/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X79 ring_pair_0/dev_pc_28/G ring_pair_0/dev_pc_34/G ring_pair_0/dev_ns_17/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X80 tapN[6] ring_pair_0/dev_pc_38/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X81 ring_pair_0/dev_ps_9/G vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X82 tapP[9] ring_pair_0/dev_pc_80/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.2436 ps=2.26 w=0.84 l=0.15
+X83 tapN[12] ring_pair_0/dev_pc_17/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X84 ring_pair_0/dev_pc_29/G ring_pair_0/dev_pc_28/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X85 ring_pair_0/dev_pc_40/G ring_pair_0/dev_pc_43/G ring_pair_0/dev_ns_21/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X86 ring_pair_0/dev_ps_9/G vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X87 ring_pair_0/dev_pc_87/G ring_pair_0/dev_pc_81/G ring_pair_0/dev_ps_43/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X88 ring_pair_0/dev_pc_71/G ring_pair_0/dev_pc_75/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X89 ring_pair_0/dev_pc_24/G ring_pair_0/dev_pc_18/G ring_pair_0/dev_ns_14/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0.2436 ps=2.84 w=0.42 l=0.15
+X90 tapN[10] ring_pair_0/dev_pc_29/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X91 ring_pair_0/dev_ps_9/G vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X92 ring_pair_0/dev_pc_83/G ring_pair_0/dev_pc_87/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X93 tapP[4] ring_pair_0/dev_pc_71/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X94 ring_pair_0/dev_pc_61/G ring_pair_0/dev_pc_67/G ring_pair_0/dev_ps_36/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X95 ring_pair_0/dev_pc_20/G ring_pair_0/dev_pc_24/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X96 ring_pair_0/dev_ps_9/G vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X97 tapP[6] ring_pair_0/dev_pc_83/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X98 ring_pair_0/dev_pc_73/G ring_pair_0/dev_pc_79/G ring_pair_0/dev_ps_40/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X99 ring_pair_0/dev_pc_62/G ring_pair_0/dev_pc_61/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X100 tapP[14] ring_pair_0/dev_pc_50/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X101 ring_pair_0/dev_ps_9/G vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X102 ring_pair_0/dev_pc_85/G ring_pair_0/dev_pc_88/G ring_pair_0/dev_ps_44/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X103 ring_pair_0/dev_pc_74/G ring_pair_0/dev_pc_73/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X104 tapP[12] ring_pair_0/dev_pc_62/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X105 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_51/G ring_pair_0/dev_ps_33/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X106 ring_pair_0/dev_pc_41/G ring_pair_0/dev_pc_40/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X107 ring_pair_0/dev_ns_8/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0.2436 pd=2.84 as=0 ps=0 w=0.42 l=0.5
+X108 ring_pair_0/dev_pc_86/G ring_pair_0/dev_pc_85/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X109 tapP[10] ring_pair_0/dev_pc_74/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X110 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_63/G ring_pair_0/dev_ps_37/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X111 ring_pair_0/dev_pc_53/G ring_pair_0/dev_pc_57/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X112 tapN[8] ring_pair_0/dev_pc_41/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X113 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_30/G ring_pair_0/dev_ps_18/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X114 ring_pair_0/dev_ns_9/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0.2436 pd=2.84 as=0 ps=0 w=0.42 l=0.5
+X115 ring_pair_0/dev_ns_40/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0.2436 pd=2.84 as=0 ps=0 w=0.42 l=0.5
+X116 tapP[8] ring_pair_0/dev_pc_86/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X117 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_75/G ring_pair_0/dev_ps_41/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X118 ring_pair_0/dev_pc_65/G ring_pair_0/dev_pc_69/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X119 tapP[1] ring_pair_0/dev_pc_53/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X120 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_42/G ring_pair_0/dev_ps_22/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X121 ring_pair_0/dev_pc_32/G ring_pair_0/dev_pc_36/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X122 tapN[3] ring_pair_0/dev_pc_20/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X123 ring_pair_0/dev_ns_41/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X124 ring_pair_0/dev_ps_45/G vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0.9744 pd=11.36 as=0 ps=0 w=0.42 l=0.5
+X125 tapP[3] ring_pair_0/dev_pc_65/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X126 ring_pair_0/dev_pc_55/G ring_pair_0/dev_pc_61/G ring_pair_0/dev_ps_34/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X127 ring_pair_0/dev_pc_44/G ring_pair_0/dev_pc_43/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X128 tapN[5] ring_pair_0/dev_pc_32/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X129 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_28/G ring_pair_0/dev_ps_15/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X130 ring_pair_0/dev_pc_11/G ring_pair_0/dev_pc_9/S VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X131 ring_pair_0/dev_pc_88/G ring_pair_0/dev_pc_87/G ring_pair_0/dev_ps_45/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X132 ring_pair_0/dev_pc_77/G ring_pair_0/dev_pc_81/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X133 ring_pair_0/dev_ns_42/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X134 ring_pair_0/dev_ns_31/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X135 ring_pair_0/dev_ns_20/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X136 ring_pair_0/dev_pc_89/G ring_pair_0/dev_pc_88/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X137 tapP[5] ring_pair_0/dev_pc_77/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X138 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_73/G ring_pair_0/dev_ps_38/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X139 ring_pair_0/dev_pc_56/G ring_pair_0/dev_pc_55/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X140 tapN[7] ring_pair_0/dev_pc_44/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X141 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_40/G ring_pair_0/dev_ps_19/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X142 ring_pair_0/dev_pc_23/G ring_pair_0/dev_pc_22/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X143 tapN[13] ring_pair_0/dev_pc_11/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X144 ring_pair_0/dev_ns_43/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0.2436 pd=2.84 as=0 ps=0 w=0.42 l=0.5
+X145 ring_pair_0/dev_ns_32/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X146 ring_pair_0/dev_nc_6/D vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X147 ring_pair_0/dev_ns_21/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X148 tapP[7] ring_pair_0/dev_pc_89/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X149 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_85/G ring_pair_0/dev_ps_42/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X150 ring_pair_0/dev_pc_68/G ring_pair_0/dev_pc_67/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X151 tapP[13] ring_pair_0/dev_pc_56/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X152 ring_pair_0/dev_pc_51/G ring_pair_0/dev_pc_49/G ring_pair_0/dev_ps_31/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X153 ring_pair_0/dev_pc_35/G ring_pair_0/dev_pc_34/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X154 tapN[11] ring_pair_0/dev_pc_23/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X155 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_7/G ring_pair_0/dev_ps_12/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X156 ring_pair_0/dev_ns_44/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0.2436 pd=2.84 as=0 ps=0 w=0.42 l=0.5
+X157 ring_pair_0/dev_ns_33/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0.2436 pd=2.84 as=0 ps=0 w=0.42 l=0.5
+X158 ring_pair_0/dev_nc_9/D vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X159 ring_pair_0/dev_ns_22/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X160 ring_pair_0/dev_pc_80/G ring_pair_0/dev_pc_79/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X161 tapP[11] ring_pair_0/dev_pc_68/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X162 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_57/G ring_pair_0/dev_ps_35/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X163 ring_pair_0/dev_pc_47/G ring_pair_0/dev_pc_51/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X164 tapN[9] ring_pair_0/dev_pc_35/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X165 ring_pair_0/dev_pc_30/G ring_pair_0/dev_pc_24/G ring_pair_0/dev_ps_16/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X166 ring_pair_0/dev_pc_14/G ring_pair_0/dev_pc_18/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X167 ring_pair_0/dev_pc_6/G ring_pair_0/dev_pc_4/G ring_pair_0/dev_ps_8/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X168 ring_pair_0/dev_ns_45/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X169 ring_pair_0/dev_ns_34/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X170 ring_pair_0/dev_ps_45/G vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X171 ring_pair_0/dev_ns_12/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X172 ring_pair_0/dev_pc_75/G ring_pair_0/dev_pc_69/G ring_pair_0/dev_ps_39/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X173 ring_pair_0/dev_pc_59/G ring_pair_0/dev_pc_63/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X174 tapP[0] ring_pair_0/dev_pc_47/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X175 ring_pair_0/dev_pc_42/G ring_pair_0/dev_pc_36/G ring_pair_0/dev_ps_20/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X176 ring_pair_0/dev_pc_26/G ring_pair_0/dev_pc_30/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X177 tapN[2] ring_pair_0/dev_pc_14/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X178 ring_pair_0/dev_pc_2/G ring_pair_0/dev_pc_6/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X179 ring_pair_0/dev_ns_35/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X180 ring_pair_0/dev_ps_45/G vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X181 ring_pair_0/dev_ns_13/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X182 tapP[2] ring_pair_0/dev_pc_59/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X183 ring_pair_0/dev_pc_49/G ring_pair_0/dev_pc_55/G ring_pair_0/dev_ps_32/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X184 ring_pair_0/dev_pc_38/G ring_pair_0/dev_pc_42/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X185 tapN[4] ring_pair_0/dev_pc_26/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X186 ring_pair_0/dev_pc_9/G ring_pair_0/dev_pc_22/G ring_pair_0/dev_ps_13/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X187 tapN[0] ring_pair_0/dev_pc_2/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X188 ring_pair_0/dev_ns_36/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0.2436 pd=2.84 as=0 ps=0 w=0.42 l=0.5
+X189 ring_pair_0/dev_ps_45/G vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X190 ring_pair_0/dev_ns_14/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X191 ring_pair_0/dev_pc_50/G ring_pair_0/dev_pc_49/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X192 tapN[6] ring_pair_0/dev_pc_38/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X193 ring_pair_0/dev_pc_28/G ring_pair_0/dev_pc_34/G ring_pair_0/dev_ps_17/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X194 ring_pair_0/dev_pc_17/G ring_pair_0/dev_pc_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X195 ring_pair_0/dev_pc_4/G ring_pair_0/dev_pc_9/S ring_pair_0/dev_ps_9/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X196 ring_pair_0/dev_ns_37/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X197 ring_pair_0/dev_ps_45/G vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X198 ring_pair_0/dev_ns_15/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X199 ring_pair_0/dev_pc_40/G ring_pair_0/dev_pc_43/G ring_pair_0/dev_ps_21/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X200 ring_pair_0/dev_pc_29/G ring_pair_0/dev_pc_28/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X201 tapN[12] ring_pair_0/dev_pc_17/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X202 ring_pair_0/dev_pc_5/G ring_pair_0/dev_pc_4/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X203 ring_pair_0/dev_ns_38/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X204 ring_pair_0/dev_ps_45/G vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X205 ring_pair_0/dev_ns_16/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X206 tapN[10] ring_pair_0/dev_pc_29/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X207 ring_pair_0/dev_pc_24/G ring_pair_0/dev_pc_18/G ring_pair_0/dev_ps_14/S VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X208 tapN[14] ring_pair_0/dev_pc_5/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X209 ring_pair_0/dev_ns_39/S vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X210 ring_pair_0/dev_ps_45/G vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X211 ring_pair_0/dev_ns_17/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X212 ring_pair_0/dev_pc_20/G ring_pair_0/dev_pc_24/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X213 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_6/G ring_pair_0/dev_pc_6/D VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X214 ring_pair_0/dev_ps_45/G vinp VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X215 ring_pair_0/dev_ns_18/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X216 ring_pair_0/dev_pc_8/G ring_pair_0/dev_pc_7/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X217 ring_pair_0/dev_ns_19/S vinn VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.42 l=0.5
+X218 tapN[1] ring_pair_0/dev_pc_8/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0 ps=0 w=0.84 l=0.15
+X219 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_9/G ring_pair_0/dev_pc_9/D VDPWR sky130_fd_pr__pfet_01v8 ad=0.2436 pd=2.26 as=0.4872 ps=4.52 w=0.84 l=0.15
+X220 ring_pair_0/dev_ps_40/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X221 ring_pair_0/dev_ps_41/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X222 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X223 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X224 ring_pair_0/dev_ps_42/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X225 ring_pair_0/dev_ps_31/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X226 ring_pair_0/dev_ps_20/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X227 tapP[9] ring_pair_0/dev_pc_80/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X228 ring_pair_0/dev_pc_6/G ring_pair_0/dev_pc_4/G ring_pair_0/dev_ns_8/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X229 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X230 ring_pair_0/dev_ps_43/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X231 ring_pair_0/dev_ps_32/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X232 ring_pair_0/dev_ps_21/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X233 ring_pair_0/dev_pc_6/D ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X234 ring_pair_0/dev_pc_2/G ring_pair_0/dev_pc_6/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X235 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X236 ring_pair_0/dev_pc_87/G ring_pair_0/dev_pc_81/G ring_pair_0/dev_ns_43/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X237 ring_pair_0/dev_pc_71/G ring_pair_0/dev_pc_75/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X238 ring_pair_0/dev_ps_44/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X239 ring_pair_0/dev_ps_33/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X240 ring_pair_0/dev_ps_22/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X241 ring_pair_0/dev_pc_9/D ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X242 ring_pair_0/dev_pc_83/G ring_pair_0/dev_pc_87/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X243 tapP[4] ring_pair_0/dev_pc_71/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X244 ring_pair_0/dev_pc_61/G ring_pair_0/dev_pc_67/G ring_pair_0/dev_ns_36/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X245 tapN[0] ring_pair_0/dev_pc_2/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X246 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X247 ring_pair_0/dev_ps_45/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X248 ring_pair_0/dev_ps_34/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X249 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X250 ring_pair_0/dev_ps_12/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X251 ring_pair_0/dev_pc_4/G ring_pair_0/dev_pc_9/S ring_pair_0/dev_ns_9/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X252 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X253 tapP[6] ring_pair_0/dev_pc_83/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X254 ring_pair_0/dev_pc_73/G ring_pair_0/dev_pc_79/G ring_pair_0/dev_ns_40/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X255 ring_pair_0/dev_pc_62/G ring_pair_0/dev_pc_61/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X256 tapP[14] ring_pair_0/dev_pc_50/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X257 ring_pair_0/dev_ps_35/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X258 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X259 ring_pair_0/dev_ps_13/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X260 ring_pair_0/dev_pc_85/G ring_pair_0/dev_pc_88/G ring_pair_0/dev_ns_44/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X261 ring_pair_0/dev_pc_74/G ring_pair_0/dev_pc_73/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X262 tapP[12] ring_pair_0/dev_pc_62/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X263 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_51/G ring_pair_0/dev_ns_33/S VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X264 ring_pair_0/dev_pc_5/G ring_pair_0/dev_pc_4/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X265 ring_pair_0/dev_pc_41/G ring_pair_0/dev_pc_40/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X266 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X267 ring_pair_0/dev_ps_36/S ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X268 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_45/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X269 ring_pair_0/dev_ps_14/S ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+X270 tapN[14] ring_pair_0/dev_pc_5/G VGND VGND sky130_fd_pr__nfet_01v8 ad=0.1218 pd=1.42 as=0 ps=0 w=0.42 l=0.15
+X271 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_9/G VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.84 l=0.5
+C0 ring_pair_0/dev_pc_26/G ring_pair_0/dev_pc_28/G 0.06146f
+C1 ring_pair_0/dev_pc_22/G ring_pair_0/dev_ns_38/S 0
+C2 tapN[11] ring_pair_0/dev_pc_28/G 0.04472f
+C3 ring_pair_0/dev_pc_49/G ring_pair_0/dev_ps_45/G 0.50184f
+C4 tapN[10] ring_pair_0/dev_ns_17/S 0
+C5 tapN[7] ring_pair_0/dev_pc_87/G 0.00113f
+C6 ring_pair_0/dev_pc_86/G ring_pair_0/dev_pc_85/G 0.18202f
+C7 tapN[0] ring_pair_0/dev_pc_2/G 0.31544f
+C8 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_73/G 0
+C9 VDPWR ring_pair_0/dev_pc_24/G 0.6721f
+C10 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_17/G 0
+C11 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_63/G 0.00633f
+C12 ring_pair_0/dev_pc_7/G ring_pair_0/dev_ps_35/S 0
+C13 ring_pair_0/dev_ns_12/S tapN[2] 0
+C14 vinp ring_pair_0/dev_pc_7/G 0.0021f
+C15 ring_pair_0/dev_pc_9/G ring_pair_0/dev_pc_9/D 0.02149f
+C16 ring_pair_0/dev_pc_71/G ring_pair_0/dev_ps_9/G 0.00188f
+C17 ring_pair_0/dev_pc_8/G tapN[1] 0.3151f
+C18 ring_pair_0/dev_pc_26/G ring_pair_0/dev_pc_24/G 0.04076f
+C19 ring_pair_0/dev_pc_67/G vinp 0.03743f
+C20 ring_pair_0/dev_pc_38/G ring_pair_0/dev_pc_85/G 0
+C21 ring_pair_0/dev_ps_9/G tapN[7] 0
+C22 tapN[11] ring_pair_0/dev_pc_24/G 0.04496f
+C23 ring_pair_0/dev_pc_71/G tapN[4] 0.00293f
+C24 ring_pair_0/dev_pc_8/G VDPWR 0.49959f
+C25 tapP[5] ring_pair_0/dev_pc_77/G 0.31544f
+C26 ring_pair_0/dev_pc_47/G VDPWR 0.51215f
+C27 ring_pair_0/dev_pc_9/S ring_pair_0/dev_nc_9/D 0.04429f
+C28 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_30/G 0
+C29 ring_pair_0/dev_ps_12/S ring_pair_0/dev_pc_9/G 0.01321f
+C30 ring_pair_0/dev_pc_67/G ring_pair_0/dev_ps_36/S 0.0205f
+C31 tapN[10] vinn 0.06027f
+C32 VDPWR ring_pair_0/dev_ns_22/S 0.00471f
+C33 ring_pair_0/dev_ns_40/S ring_pair_0/dev_pc_73/G 0.04389f
+C34 ring_pair_0/dev_pc_14/G ring_pair_0/dev_pc_9/G 0.06146f
+C35 ring_pair_0/dev_pc_79/G ring_pair_0/dev_ns_41/S 0.00123f
+C36 ring_pair_0/dev_pc_47/G ring_pair_0/dev_ps_45/G 0.02068f
+C37 ring_pair_0/dev_ps_14/S tapP[3] 0
+C38 vinp ring_pair_0/dev_pc_88/G 0.02356f
+C39 VDPWR ring_pair_0/dev_pc_56/G 0.51215f
+C40 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_55/G 0.00254f
+C41 ring_pair_0/dev_pc_29/G VDPWR 0.501f
+C42 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_83/G 0
+C43 vinp tapN[5] 0
+C44 ring_pair_0/dev_pc_44/G ring_pair_0/dev_pc_40/G 0
+C45 vinp ring_pair_0/dev_pc_2/G 0.00154f
+C46 vinp ring_pair_0/dev_ps_9/S 0
+C47 ring_pair_0/dev_ps_44/S ring_pair_0/dev_pc_88/G 0.02243f
+C48 tapP[7] ring_pair_0/dev_pc_89/G 0.31544f
+C49 VDPWR ring_pair_0/dev_ns_43/S 0.00471f
+C50 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_56/G 0.02068f
+C51 ring_pair_0/dev_ps_14/S VDPWR 0.2509f
+C52 tapP[1] ring_pair_0/dev_pc_55/G 0.04632f
+C53 ring_pair_0/dev_pc_41/G VDPWR 0.501f
+C54 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_55/G 0
+C55 tapN[3] ring_pair_0/dev_ns_15/S 0
+C56 ring_pair_0/dev_pc_68/G ring_pair_0/dev_pc_23/G 0.00613f
+C57 ring_pair_0/dev_pc_71/G ring_pair_0/dev_pc_30/G 0
+C58 ring_pair_0/dev_pc_38/G vinn 0.02045f
+C59 ring_pair_0/dev_pc_86/G ring_pair_0/dev_pc_87/G 0.05982f
+C60 ring_pair_0/dev_ns_9/S VDPWR 0.00471f
+C61 ring_pair_0/dev_pc_69/G tapP[4] 0.00523f
+C62 tapN[10] ring_pair_0/dev_ps_9/G 0.00721f
+C63 ring_pair_0/dev_ps_39/S ring_pair_0/dev_pc_30/G 0
+C64 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_83/G 0.03519f
+C65 ring_pair_0/dev_ns_45/S ring_pair_0/dev_ps_45/S 0.00667f
+C66 ring_pair_0/dev_pc_86/G ring_pair_0/dev_ps_9/G 0.00188f
+C67 vinp ring_pair_0/dev_pc_77/G 0.02045f
+C68 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_85/G 0
+C69 ring_pair_0/dev_pc_38/G ring_pair_0/dev_pc_87/G 0.00358f
+C70 tapP[11] ring_pair_0/dev_pc_75/G 0
+C71 tapP[5] ring_pair_0/dev_pc_40/G 0.0307f
+C72 ring_pair_0/dev_ns_31/S VDPWR 0.00471f
+C73 VDPWR ring_pair_0/dev_pc_51/G 0.67984f
+C74 tapP[9] ring_pair_0/dev_pc_36/G 0.08102f
+C75 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_6/D 0.00835f
+C76 ring_pair_0/dev_pc_22/G ring_pair_0/dev_ps_38/S 0
+C77 ring_pair_0/dev_ps_42/S ring_pair_0/dev_pc_85/G 0.02149f
+C78 vinp ring_pair_0/dev_ns_32/S 0.04272f
+C79 ring_pair_0/dev_pc_56/G tapP[13] 0.31544f
+C80 ring_pair_0/dev_pc_7/G ring_pair_0/dev_ps_33/S 0
+C81 ring_pair_0/dev_pc_42/G tapN[9] 0
+C82 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_73/G 0.00246f
+C83 ring_pair_0/dev_pc_75/G ring_pair_0/dev_pc_85/G 0
+C84 ring_pair_0/dev_pc_32/G vinn 0.02045f
+C85 ring_pair_0/dev_ps_45/S ring_pair_0/dev_pc_87/G 0.02132f
+C86 ring_pair_0/dev_pc_34/G tapP[5] 0.04538f
+C87 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_51/G 0.03968f
+C88 tapP[9] ring_pair_0/dev_pc_75/G 0
+C89 ring_pair_0/dev_pc_43/G tapP[8] 0.05112f
+C90 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_38/G 0.01999f
+C91 tapP[7] vinn 0
+C92 ring_pair_0/dev_pc_43/G ring_pair_0/dev_ns_44/S 0
+C93 ring_pair_0/dev_ns_45/S tapP[7] 0
+C94 tapP[4] VDPWR 0.44576f
+C95 ring_pair_0/dev_pc_68/G vinp 0.02115f
+C96 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_85/G 0.21559f
+C97 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_49/G 0
+C98 tapN[1] ring_pair_0/dev_pc_53/G 0.00293f
+C99 ring_pair_0/dev_ps_17/S vinp 0
+C100 tapP[9] ring_pair_0/dev_pc_81/G 0.0765f
+C101 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_62/G 0
+C102 tapP[4] ring_pair_0/dev_pc_26/G 0.00372f
+C103 ring_pair_0/dev_ps_16/S ring_pair_0/dev_ns_16/S 0.00667f
+C104 tapN[10] ring_pair_0/dev_pc_30/G 0.04536f
+C105 tapP[4] ring_pair_0/dev_ps_45/G 0.02772f
+C106 ring_pair_0/dev_pc_49/G ring_pair_0/dev_ps_31/S 0.03372f
+C107 VDPWR ring_pair_0/dev_pc_53/G 0.51215f
+C108 ring_pair_0/dev_pc_20/G vinn 0.02045f
+C109 tapP[7] ring_pair_0/dev_pc_87/G 0.00572f
+C110 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_68/G 0.18139f
+C111 ring_pair_0/dev_pc_36/G vinn 0.17958f
+C112 ring_pair_0/dev_pc_4/G VDPWR 0.97525f
+C113 ring_pair_0/dev_pc_18/G tapN[13] 0
+C114 ring_pair_0/dev_pc_71/G ring_pair_0/dev_pc_73/G 0.06146f
+C115 ring_pair_0/dev_pc_62/G ring_pair_0/dev_pc_17/G 0.00613f
+C116 ring_pair_0/dev_pc_51/G tapP[13] 0
+C117 ring_pair_0/dev_pc_62/G ring_pair_0/dev_pc_18/G 0
+C118 tapN[5] ring_pair_0/dev_pc_77/G 0.00293f
+C119 ring_pair_0/dev_pc_9/G ring_pair_0/dev_pc_6/G 0
+C120 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_32/G 0.02055f
+C121 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_53/G 0.02125f
+C122 ring_pair_0/dev_pc_86/G tapN[8] 0.00293f
+C123 ring_pair_0/dev_ps_39/S ring_pair_0/dev_pc_73/G 0.01321f
+C124 ring_pair_0/dev_pc_4/G ring_pair_0/dev_ps_45/G 0
+C125 ring_pair_0/dev_ps_9/G tapP[7] 0.00689f
+C126 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_74/G 0.00188f
+C127 ring_pair_0/dev_pc_49/G ring_pair_0/dev_pc_57/G 0
+C128 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_8/G 0.05047f
+C129 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_87/G 0
+C130 ring_pair_0/dev_pc_69/G ring_pair_0/dev_ns_39/S 0.02018f
+C131 vinp ring_pair_0/dev_pc_40/G 0.00218f
+C132 ring_pair_0/dev_ps_40/S ring_pair_0/dev_pc_75/G 0
+C133 tapN[14] VDPWR 0.22342f
+C134 ring_pair_0/dev_pc_61/G ring_pair_0/dev_pc_56/G 0.06147f
+C135 ring_pair_0/dev_pc_49/G ring_pair_0/dev_ps_32/S 0.0928f
+C136 ring_pair_0/dev_ps_44/S ring_pair_0/dev_pc_40/G 0
+C137 ring_pair_0/dev_pc_83/G ring_pair_0/dev_pc_42/G 0
+C138 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_79/G 0
+C139 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_20/G 0.02055f
+C140 vinp ring_pair_0/dev_pc_34/G 0.00217f
+C141 ring_pair_0/dev_pc_36/G ring_pair_0/dev_ps_9/G 0.04011f
+C142 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_35/G 0.05476f
+C143 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_87/G 0.24449f
+C144 VDPWR ring_pair_0/dev_pc_9/D 0.2509f
+C145 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_20/G 0
+C146 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_8/G 0.00357f
+C147 tapP[2] ring_pair_0/dev_pc_9/G 0.05239f
+C148 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_75/G 0.00272f
+C149 ring_pair_0/dev_pc_79/G ring_pair_0/dev_ns_42/S 0.04429f
+C150 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_11/G 0
+C151 tapP[14] tapN[1] 0.00987f
+C152 ring_pair_0/dev_nc_6/D tapN[1] 0
+C153 ring_pair_0/dev_pc_14/G ring_pair_0/dev_pc_59/G 0.00613f
+C154 ring_pair_0/dev_pc_89/G ring_pair_0/dev_pc_42/G 0
+C155 ring_pair_0/dev_pc_32/G ring_pair_0/dev_pc_30/G 0.05175f
+C156 ring_pair_0/dev_ns_39/S VDPWR 0.00471f
+C157 ring_pair_0/dev_pc_22/G ring_pair_0/dev_ps_13/S 0.0205f
+C158 ring_pair_0/dev_pc_18/G ring_pair_0/dev_ps_37/S 0
+C159 tapP[8] ring_pair_0/dev_pc_41/G 0.00372f
+C160 ring_pair_0/dev_nc_6/D VDPWR 0.00471f
+C161 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_81/G 0.00263f
+C162 ring_pair_0/dev_ps_12/S VDPWR 0.2509f
+C163 tapP[14] VDPWR 0.44576f
+C164 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_35/G 0
+C165 ring_pair_0/dev_pc_9/S ring_pair_0/dev_ns_9/S 0.01385f
+C166 ring_pair_0/dev_pc_30/G ring_pair_0/dev_pc_74/G 0
+C167 ring_pair_0/dev_pc_42/G ring_pair_0/dev_pc_85/G 0
+C168 ring_pair_0/dev_pc_40/G ring_pair_0/dev_pc_88/G 0.00248f
+C169 ring_pair_0/dev_ns_40/S vinp 0.04272f
+C170 ring_pair_0/dev_pc_9/G ring_pair_0/dev_ns_13/S 0.04389f
+C171 ring_pair_0/dev_pc_44/G tapN[7] 0.31544f
+C172 ring_pair_0/dev_ps_16/S ring_pair_0/dev_ps_9/G 0.07497f
+C173 ring_pair_0/dev_pc_51/G ring_pair_0/dev_pc_61/G 0
+C174 ring_pair_0/dev_ps_41/S ring_pair_0/dev_pc_30/G 0
+C175 tapN[5] ring_pair_0/dev_pc_40/G 0
+C176 tapP[9] ring_pair_0/dev_pc_42/G 0
+C177 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_56/G 0.05476f
+C178 ring_pair_0/dev_pc_79/G VDPWR 0.84128f
+C179 tapP[14] ring_pair_0/dev_ps_45/G 0.02828f
+C180 ring_pair_0/dev_pc_14/G VDPWR 0.50103f
+C181 ring_pair_0/dev_pc_18/G ring_pair_0/dev_ps_13/S 0
+C182 ring_pair_0/dev_ns_15/S VDPWR 0.00471f
+C183 vinp tapP[6] 0.10217f
+C184 ring_pair_0/dev_pc_9/G tapN[12] 0
+C185 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_23/G 0.18139f
+C186 tapP[0] VDPWR 0.44576f
+C187 ring_pair_0/dev_pc_34/G tapN[5] 0.03918f
+C188 ring_pair_0/dev_pc_9/G tapP[12] 0
+C189 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_51/G 0
+C190 ring_pair_0/dev_pc_79/G ring_pair_0/dev_ps_45/G 0.17675f
+C191 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_30/G 0.25793f
+C192 ring_pair_0/dev_pc_36/G tapN[8] 0
+C193 tapP[13] ring_pair_0/dev_pc_9/D 0
+C194 vinn ring_pair_0/dev_pc_9/G 0.0364f
+C195 tapN[11] ring_pair_0/dev_ns_15/S 0
+C196 ring_pair_0/dev_pc_4/G ring_pair_0/dev_ps_8/S 0.03372f
+C197 ring_pair_0/dev_ns_31/S ring_pair_0/dev_ps_31/S 0.00667f
+C198 tapP[0] ring_pair_0/dev_ps_45/G 0.02772f
+C199 ring_pair_0/dev_ps_20/S ring_pair_0/dev_ps_9/G 0.07497f
+C200 ring_pair_0/dev_ps_31/S ring_pair_0/dev_pc_51/G 0.07959f
+C201 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_23/G 0
+C202 ring_pair_0/dev_pc_50/G VDPWR 0.51211f
+C203 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_80/G 0.18139f
+C204 ring_pair_0/dev_pc_75/G ring_pair_0/dev_pc_30/G 0.00633f
+C205 ring_pair_0/dev_pc_61/G ring_pair_0/dev_pc_53/G 0
+C206 ring_pair_0/dev_ns_36/S tapP[12] 0
+C207 ring_pair_0/dev_pc_11/G ring_pair_0/dev_pc_55/G 0.0035f
+C208 ring_pair_0/dev_pc_36/G ring_pair_0/dev_ps_18/S 0.07959f
+C209 ring_pair_0/dev_pc_50/G ring_pair_0/dev_ps_45/G 0.02125f
+C210 vinn ring_pair_0/dev_ns_20/S 0.04272f
+C211 tapN[3] tapP[12] 0.00987f
+C212 ring_pair_0/dev_pc_83/G tapN[6] 0.00293f
+C213 VDPWR tapN[9] 0.22342f
+C214 ring_pair_0/dev_pc_42/G vinn 0.21119f
+C215 tapN[3] vinn 0.06097f
+C216 ring_pair_0/dev_ns_45/S ring_pair_0/dev_pc_42/G 0
+C217 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_30/G 0
+C218 ring_pair_0/dev_pc_24/G ring_pair_0/dev_ns_14/S 0.04306f
+C219 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_51/G 0.25793f
+C220 ring_pair_0/dev_ps_16/S ring_pair_0/dev_pc_30/G 0.07959f
+C221 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_77/G 0
+C222 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_53/G 0
+C223 tapP[6] ring_pair_0/dev_pc_88/G 0.06656f
+C224 ring_pair_0/dev_ps_22/S tapP[7] 0
+C225 ring_pair_0/dev_pc_22/G vinp 0.00217f
+C226 ring_pair_0/dev_pc_51/G ring_pair_0/dev_ps_32/S 0
+C227 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_9/G 0.27526f
+C228 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_4/G 0.29296f
+C229 ring_pair_0/dev_pc_42/G ring_pair_0/dev_pc_87/G 0.01457f
+C230 vinp ring_pair_0/dev_ns_34/S 0.04272f
+C231 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_7/G 0
+C232 ring_pair_0/dev_pc_4/G ring_pair_0/dev_ps_31/S 0
+C233 vinp ring_pair_0/dev_ps_15/S 0
+C234 ring_pair_0/dev_pc_73/G ring_pair_0/dev_pc_74/G 0.18202f
+C235 ring_pair_0/dev_ns_33/S VDPWR 0.00471f
+C236 ring_pair_0/dev_pc_22/G ring_pair_0/dev_ps_36/S 0
+C237 tapP[10] ring_pair_0/dev_pc_28/G 0
+C238 ring_pair_0/dev_pc_80/G tapN[9] 0.00293f
+C239 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_67/G 0.00629f
+C240 tapP[1] ring_pair_0/dev_pc_9/G 0.0307f
+C241 vinp ring_pair_0/dev_pc_17/G 0.00154f
+C242 ring_pair_0/dev_pc_18/G ring_pair_0/dev_ps_35/S 0
+C243 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_9/G 0
+C244 vinp ring_pair_0/dev_pc_18/G 0.00202f
+C245 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_42/G 0.03525f
+C246 tapP[9] tapN[6] 0.00987f
+C247 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_17/G 0
+C248 ring_pair_0/dev_pc_35/G ring_pair_0/dev_pc_42/G 0
+C249 ring_pair_0/dev_ps_9/G tapN[3] 0.00721f
+C250 ring_pair_0/dev_ps_17/S ring_pair_0/dev_pc_34/G 0.0205f
+C251 ring_pair_0/dev_pc_9/S tapN[14] 0.04486f
+C252 ring_pair_0/dev_ns_19/S tapN[9] 0
+C253 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_18/G 0.25006f
+C254 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_53/G 0.21809f
+C255 ring_pair_0/dev_pc_5/G VDPWR 0.501f
+C256 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_17/G 0
+C257 ring_pair_0/dev_ns_21/S ring_pair_0/dev_pc_42/G 0.01005f
+C258 ring_pair_0/dev_pc_69/G tapP[11] 0.0765f
+C259 tapP[10] ring_pair_0/dev_pc_24/G 0
+C260 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_18/G 0
+C261 tapN[1] ring_pair_0/dev_pc_6/G 0.00553f
+C262 ring_pair_0/dev_pc_63/G ring_pair_0/dev_ns_36/S 0.01005f
+C263 ring_pair_0/dev_pc_71/G vinp 0.02045f
+C264 ring_pair_0/dev_pc_28/G ring_pair_0/dev_pc_24/G 0.30636f
+C265 ring_pair_0/dev_pc_4/G ring_pair_0/dev_ps_32/S 0
+C266 ring_pair_0/dev_ps_14/S ring_pair_0/dev_ns_14/S 0.00667f
+C267 ring_pair_0/dev_pc_75/G ring_pair_0/dev_pc_73/G 0.18904f
+C268 VDPWR ring_pair_0/dev_pc_6/G 0.6633f
+C269 tapP[0] ring_pair_0/dev_ps_8/S 0
+C270 ring_pair_0/dev_ps_21/S ring_pair_0/dev_ps_9/G 0.07497f
+C271 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_9/D 0.08728f
+C272 VDPWR ring_pair_0/dev_pc_83/G 0.51215f
+C273 ring_pair_0/dev_pc_71/G ring_pair_0/dev_pc_67/G 0
+C274 ring_pair_0/dev_ns_41/S ring_pair_0/dev_pc_30/G 0
+C275 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_73/G 0
+C276 tapP[11] tapP[3] 0.00123f
+C277 ring_pair_0/dev_ns_21/S ring_pair_0/dev_ps_21/S 0.00667f
+C278 ring_pair_0/dev_pc_43/G ring_pair_0/dev_ns_22/S 0.04429f
+C279 ring_pair_0/dev_pc_14/G ring_pair_0/dev_pc_61/G 0
+C280 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_40/G 0.30115f
+C281 ring_pair_0/dev_pc_49/G ring_pair_0/dev_pc_47/G 0.06349f
+C282 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_83/G 0.02068f
+C283 ring_pair_0/dev_pc_85/G ring_pair_0/dev_ns_42/S 0.01384f
+C284 ring_pair_0/dev_pc_9/S tapP[14] 0.05111f
+C285 ring_pair_0/dev_pc_9/S ring_pair_0/dev_nc_6/D 0.00123f
+C286 tapN[6] vinn 0.06027f
+C287 ring_pair_0/dev_pc_44/G tapP[7] 0.00372f
+C288 ring_pair_0/dev_pc_14/G tapN[2] 0.31544f
+C289 tapP[9] ring_pair_0/dev_ns_42/S 0
+C290 tapP[2] ring_pair_0/dev_pc_59/G 0.31544f
+C291 vinp ring_pair_0/dev_pc_55/G 0.03743f
+C292 tapP[11] VDPWR 0.44576f
+C293 ring_pair_0/dev_pc_29/G tapP[10] 0.00372f
+C294 ring_pair_0/dev_pc_36/G ring_pair_0/dev_ps_43/S 0
+C295 VDPWR ring_pair_0/dev_pc_89/G 0.51675f
+C296 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_14/G 0
+C297 tapN[8] ring_pair_0/dev_pc_42/G 0.04536f
+C298 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_41/G 0.05566f
+C299 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_55/G 0
+C300 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_65/G 0.00188f
+C301 ring_pair_0/dev_pc_29/G ring_pair_0/dev_pc_28/G 0.18202f
+C302 ring_pair_0/dev_pc_9/S tapP[0] 0.0307f
+C303 ring_pair_0/dev_ps_45/G tapP[11] 0.02772f
+C304 VDPWR ring_pair_0/dev_pc_85/G 0.99712f
+C305 ring_pair_0/dev_pc_69/G tapP[12] 0
+C306 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_89/G 0
+C307 tapN[11] tapP[11] 0.34801f
+C308 tapP[2] VDPWR 0.44576f
+C309 tapP[9] VDPWR 0.44576f
+C310 ring_pair_0/dev_ns_16/S VDPWR 0.00471f
+C311 tapP[13] ring_pair_0/dev_pc_6/G 0
+C312 vinp tapN[10] 0
+C313 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_65/G 0.05175f
+C314 tapP[14] ring_pair_0/dev_pc_57/G 0
+C315 ring_pair_0/dev_pc_32/G tapP[5] 0.00372f
+C316 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_50/G 0
+C317 ring_pair_0/dev_ns_17/S VDPWR 0.00471f
+C318 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_85/G 0.27571f
+C319 ring_pair_0/dev_pc_29/G ring_pair_0/dev_pc_24/G 0
+C320 ring_pair_0/dev_pc_81/G ring_pair_0/dev_ps_43/S 0.02172f
+C321 tapP[6] ring_pair_0/dev_pc_40/G 0.04482f
+C322 ring_pair_0/dev_ps_9/G tapN[6] 0.00665f
+C323 tapP[2] ring_pair_0/dev_ps_45/G 0.02772f
+C324 tapP[9] ring_pair_0/dev_ps_45/G 0.02772f
+C325 ring_pair_0/dev_ns_40/S ring_pair_0/dev_pc_34/G 0
+C326 VDPWR ring_pair_0/dev_ns_13/S 0.00471f
+C327 ring_pair_0/dev_pc_14/G ring_pair_0/dev_pc_57/G 0
+C328 tapN[11] ring_pair_0/dev_ns_16/S 0
+C329 ring_pair_0/dev_pc_86/G vinp 0.02045f
+C330 tapP[3] tapP[12] 0.00123f
+C331 ring_pair_0/dev_pc_80/G ring_pair_0/dev_pc_85/G 0.06147f
+C332 ring_pair_0/dev_ps_14/S ring_pair_0/dev_pc_24/G 0.07959f
+C333 tapP[3] vinn 0.12557f
+C334 VDPWR tapN[12] 0.22342f
+C335 tapP[9] ring_pair_0/dev_pc_80/G 0.31544f
+C336 tapN[1] vinn 0.06097f
+C337 ring_pair_0/dev_pc_9/D ring_pair_0/dev_nc_9/D 0.00667f
+C338 ring_pair_0/dev_pc_49/G ring_pair_0/dev_ns_31/S 0.01662f
+C339 ring_pair_0/dev_pc_49/G ring_pair_0/dev_pc_51/G 0.33251f
+C340 ring_pair_0/dev_pc_36/G tapP[5] 0.04563f
+C341 vinp ring_pair_0/dev_pc_38/G 0.00154f
+C342 ring_pair_0/dev_pc_69/G ring_pair_0/dev_ps_9/G 0.00263f
+C343 VDPWR tapP[12] 0.44576f
+C344 ring_pair_0/dev_pc_50/G ring_pair_0/dev_pc_57/G 0
+C345 VDPWR vinn 0.12526f
+C346 ring_pair_0/dev_ns_45/S VDPWR 0.00471f
+C347 ring_pair_0/dev_ns_37/S ring_pair_0/dev_pc_63/G 0.0239f
+C348 ring_pair_0/dev_ps_22/S ring_pair_0/dev_pc_42/G 0.02132f
+C349 tapP[4] tapP[10] 0.00123f
+C350 tapP[2] tapP[13] 0.00123f
+C351 ring_pair_0/dev_ns_12/S ring_pair_0/dev_ps_12/S 0.00667f
+C352 ring_pair_0/dev_ps_45/G tapP[12] 0.02828f
+C353 ring_pair_0/dev_ps_8/S ring_pair_0/dev_pc_6/G 0.07959f
+C354 tapN[13] ring_pair_0/dev_pc_9/G 0.04472f
+C355 ring_pair_0/dev_pc_26/G vinn 0.02045f
+C356 tapP[4] ring_pair_0/dev_pc_28/G 0.05239f
+C357 ring_pair_0/dev_pc_75/G tapP[5] 0.00553f
+C358 ring_pair_0/dev_ps_40/S VDPWR 0.2509f
+C359 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_63/G 0.25793f
+C360 tapN[11] vinn 0.06097f
+C361 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_59/G 0.00188f
+C362 ring_pair_0/dev_pc_69/G ring_pair_0/dev_ns_38/S 0.00634f
+C363 VDPWR ring_pair_0/dev_pc_87/G 0.73233f
+C364 ring_pair_0/dev_ps_9/G tapP[3] 0.15211f
+C365 ring_pair_0/dev_pc_86/G ring_pair_0/dev_pc_88/G 0.05566f
+C366 ring_pair_0/dev_pc_81/G tapP[5] 0.04664f
+C367 ring_pair_0/dev_ps_40/S ring_pair_0/dev_ps_45/G 0.07511f
+C368 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_5/G 0.05565f
+C369 ring_pair_0/dev_pc_55/G ring_pair_0/dev_ps_33/S 0.00835f
+C370 ring_pair_0/dev_pc_8/G ring_pair_0/dev_pc_51/G 0
+C371 ring_pair_0/dev_ps_9/G tapN[1] 0.00721f
+C372 ring_pair_0/dev_pc_49/G ring_pair_0/dev_pc_53/G 0
+C373 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_59/G 0.23466f
+C374 vinp ring_pair_0/dev_pc_32/G 0.00154f
+C375 VDPWR ring_pair_0/dev_ns_35/S 0.00471f
+C376 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_87/G 0.03558f
+C377 ring_pair_0/dev_ns_32/S ring_pair_0/dev_pc_55/G 0.01385f
+C378 tapP[4] ring_pair_0/dev_pc_24/G 0.00193f
+C379 ring_pair_0/dev_pc_47/G ring_pair_0/dev_pc_51/G 0.24223f
+C380 ring_pair_0/dev_pc_49/G ring_pair_0/dev_pc_4/G 0.00627f
+C381 ring_pair_0/dev_pc_63/G tapP[3] 0.00553f
+C382 vinp tapP[7] 0.0066f
+C383 ring_pair_0/dev_ps_9/G VDPWR 14.04344f
+C384 ring_pair_0/dev_pc_38/G ring_pair_0/dev_pc_88/G 0
+C385 vinp ring_pair_0/dev_pc_74/G 0.02045f
+C386 ring_pair_0/dev_ns_33/S ring_pair_0/dev_pc_57/G 0.04306f
+C387 VDPWR ring_pair_0/dev_pc_35/G 0.50103f
+C388 tapN[1] tapP[1] 0.34801f
+C389 ring_pair_0/dev_ns_38/S tapP[3] 0
+C390 ring_pair_0/dev_ns_19/S vinn 0.04272f
+C391 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_6/G 0.31254f
+C392 vinn tapP[13] 0.12557f
+C393 ring_pair_0/dev_ns_21/S VDPWR 0.00471f
+C394 tapN[4] VDPWR 0.22342f
+C395 ring_pair_0/dev_pc_80/G ring_pair_0/dev_pc_87/G 0
+C396 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_30/G 0.00247f
+C397 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_9/G 0.00413f
+C398 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_26/G 0.01999f
+C399 ring_pair_0/dev_ps_31/S ring_pair_0/dev_pc_6/G 0
+C400 tapP[1] VDPWR 0.44572f
+C401 ring_pair_0/dev_pc_51/G ring_pair_0/dev_pc_56/G 0
+C402 tapN[11] ring_pair_0/dev_ps_9/G 0.00665f
+C403 VDPWR ring_pair_0/dev_pc_63/G 0.67881f
+C404 vinp ring_pair_0/dev_pc_20/G 0.00154f
+C405 ring_pair_0/dev_pc_42/G ring_pair_0/dev_ps_43/S 0
+C406 ring_pair_0/dev_pc_88/G ring_pair_0/dev_ps_45/S 0.08794f
+C407 tapN[4] ring_pair_0/dev_pc_26/G 0.31544f
+C408 vinp ring_pair_0/dev_pc_36/G 0.0021f
+C409 ring_pair_0/dev_ns_38/S VDPWR 0.00471f
+C410 ring_pair_0/dev_pc_11/G ring_pair_0/dev_pc_9/G 0.06147f
+C411 ring_pair_0/dev_pc_8/G ring_pair_0/dev_pc_53/G 0.00613f
+C412 ring_pair_0/dev_ps_45/G tapP[1] 0.02828f
+C413 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_63/G 0.03951f
+C414 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_80/G 0.00188f
+C415 ring_pair_0/dev_pc_80/G ring_pair_0/dev_pc_35/G 0.00613f
+C416 ring_pair_0/dev_pc_73/G ring_pair_0/dev_pc_65/G 0
+C417 ring_pair_0/dev_pc_4/G ring_pair_0/dev_pc_8/G 0
+C418 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_20/G 0
+C419 ring_pair_0/dev_pc_44/G ring_pair_0/dev_pc_42/G 0.06286f
+C420 tapP[2] ring_pair_0/dev_pc_61/G 0.05375f
+C421 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_6/G 0
+C422 vinp ring_pair_0/dev_pc_75/G 0.28436f
+C423 ring_pair_0/dev_nc_6/D ring_pair_0/dev_pc_6/D 0.00667f
+C424 tapP[2] tapN[2] 0.34801f
+C425 ring_pair_0/dev_pc_47/G ring_pair_0/dev_pc_4/G 0
+C426 tapP[7] ring_pair_0/dev_pc_88/G 0
+C427 ring_pair_0/dev_pc_32/G tapN[5] 0.31544f
+C428 ring_pair_0/dev_ps_9/G tapP[13] 0.15155f
+C429 ring_pair_0/dev_ps_13/S ring_pair_0/dev_pc_9/G 0.0928f
+C430 vinp ring_pair_0/dev_pc_81/G 0.17958f
+C431 ring_pair_0/dev_ns_41/S tapP[5] 0
+C432 tapP[8] ring_pair_0/dev_pc_85/G 0
+C433 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_75/G 0
+C434 VDPWR ring_pair_0/dev_pc_30/G 0.66227f
+C435 tapN[2] ring_pair_0/dev_ns_13/S 0
+C436 ring_pair_0/dev_ps_16/S vinp 0
+C437 ring_pair_0/dev_ns_44/S ring_pair_0/dev_pc_85/G 0.04389f
+C438 tapN[8] VDPWR 0.22342f
+C439 tapP[1] tapP[13] 0.00123f
+C440 ring_pair_0/dev_ns_31/S ring_pair_0/dev_pc_51/G 0.04306f
+C441 ring_pair_0/dev_pc_63/G tapP[13] 0
+C442 tapP[14] ring_pair_0/dev_pc_49/G 0
+C443 ring_pair_0/dev_pc_26/G ring_pair_0/dev_pc_30/G 0.23466f
+C444 ring_pair_0/dev_pc_79/G tapP[10] 0.052f
+C445 tapN[11] ring_pair_0/dev_pc_30/G 0
+C446 ring_pair_0/dev_pc_61/G tapP[12] 0
+C447 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_28/G 0.00246f
+C448 VDPWR ring_pair_0/dev_ps_18/S 0.2509f
+C449 ring_pair_0/dev_pc_36/G tapN[5] 0.0395f
+C450 ring_pair_0/dev_ns_15/S ring_pair_0/dev_pc_28/G 0.01384f
+C451 ring_pair_0/dev_ns_39/S ring_pair_0/dev_pc_24/G 0
+C452 ring_pair_0/dev_pc_69/G ring_pair_0/dev_ps_38/S 0.00123f
+C453 ring_pair_0/dev_pc_32/G ring_pair_0/dev_pc_77/G 0.00613f
+C454 vinn tapN[2] 0.06027f
+C455 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_73/G 0.30727f
+C456 vinp ring_pair_0/dev_ps_20/S 0
+C457 ring_pair_0/dev_pc_4/G ring_pair_0/dev_ns_9/S 0.04389f
+C458 ring_pair_0/dev_pc_49/G tapP[0] 0.05387f
+C459 tapP[2] ring_pair_0/dev_pc_57/G 0.00523f
+C460 VDPWR ring_pair_0/dev_ns_8/S 0.00471f
+C461 ring_pair_0/dev_pc_43/G tapN[9] 0
+C462 ring_pair_0/dev_pc_9/S vinn 0.03743f
+C463 ring_pair_0/dev_pc_34/G tapN[10] 0.04486f
+C464 tapP[9] ring_pair_0/dev_ps_19/S 0
+C465 ring_pair_0/dev_ns_15/S ring_pair_0/dev_pc_24/G 0.00634f
+C466 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_88/G 0.19341f
+C467 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_8/S 0.07497f
+C468 ring_pair_0/dev_pc_51/G ring_pair_0/dev_pc_53/G 0.05175f
+C469 tapP[8] vinn 0.12487f
+C470 ring_pair_0/dev_pc_50/G ring_pair_0/dev_pc_49/G 0.18202f
+C471 ring_pair_0/dev_pc_22/G ring_pair_0/dev_ps_15/S 0.08728f
+C472 ring_pair_0/dev_ps_38/S tapP[3] 0
+C473 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_62/G 0
+C474 ring_pair_0/dev_ns_31/S ring_pair_0/dev_pc_4/G 0
+C475 tapN[14] ring_pair_0/dev_ns_9/S 0
+C476 ring_pair_0/dev_pc_4/G ring_pair_0/dev_pc_51/G 0
+C477 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_17/G 0.05565f
+C478 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_18/G 0.31254f
+C479 ring_pair_0/dev_pc_61/G ring_pair_0/dev_ns_35/S 0
+C480 tapP[3] ring_pair_0/dev_pc_73/G 0.02468f
+C481 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_77/G 0
+C482 ring_pair_0/dev_pc_38/G ring_pair_0/dev_pc_40/G 0.05589f
+C483 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_61/G 0.00242f
+C484 ring_pair_0/dev_ps_22/S VDPWR 0.2509f
+C485 vinp ring_pair_0/dev_pc_9/G 0.00218f
+C486 tapP[8] ring_pair_0/dev_pc_87/G 0.0769f
+C487 vinp ring_pair_0/dev_ns_41/S 0.04272f
+C488 ring_pair_0/dev_ps_38/S VDPWR 0.2509f
+C489 ring_pair_0/dev_pc_57/G tapP[12] 0
+C490 ring_pair_0/dev_ps_9/G tapN[2] 0.00665f
+C491 ring_pair_0/dev_ns_44/S ring_pair_0/dev_pc_87/G 0.01005f
+C492 ring_pair_0/dev_pc_47/G tapP[0] 0.31544f
+C493 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_17/G 0.05982f
+C494 VDPWR ring_pair_0/dev_pc_73/G 0.99712f
+C495 ring_pair_0/dev_pc_75/G ring_pair_0/dev_pc_77/G 0.05175f
+C496 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_38/G 0
+C497 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_9/G 0.30636f
+C498 tapP[1] ring_pair_0/dev_pc_61/G 0.02468f
+C499 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_61/G 0.18904f
+C500 ring_pair_0/dev_pc_9/G ring_pair_0/dev_ps_36/S 0
+C501 ring_pair_0/dev_ps_38/S ring_pair_0/dev_ps_45/G 0.07511f
+C502 ring_pair_0/dev_pc_9/S ring_pair_0/dev_ps_9/G 0.17629f
+C503 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_9/G 0.00246f
+C504 ring_pair_0/dev_pc_26/G ring_pair_0/dev_pc_73/G 0
+C505 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_29/G 0
+C506 tapP[8] ring_pair_0/dev_ps_9/G 0.15211f
+C507 vinp ring_pair_0/dev_ns_20/S 0
+C508 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_73/G 0.27571f
+C509 vinp ring_pair_0/dev_ns_36/S 0.04272f
+C510 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_77/G 0.21809f
+C511 vinp ring_pair_0/dev_pc_42/G 0.00172f
+C512 vinp tapN[3] 0
+C513 VDPWR tapN[13] 0.22342f
+C514 ring_pair_0/dev_pc_9/S tapP[1] 0.04538f
+C515 ring_pair_0/dev_pc_62/G VDPWR 0.51211f
+C516 ring_pair_0/dev_pc_68/G ring_pair_0/dev_pc_75/G 0
+C517 ring_pair_0/dev_pc_32/G ring_pair_0/dev_pc_40/G 0
+C518 ring_pair_0/dev_ns_37/S ring_pair_0/dev_ps_37/S 0.00667f
+C519 ring_pair_0/dev_ps_36/S ring_pair_0/dev_ns_36/S 0.00667f
+C520 ring_pair_0/dev_pc_6/D ring_pair_0/dev_pc_6/G 0.02132f
+C521 ring_pair_0/dev_pc_67/G ring_pair_0/dev_ns_36/S 0.01385f
+C522 ring_pair_0/dev_pc_5/G ring_pair_0/dev_pc_49/G 0.0035f
+C523 ring_pair_0/dev_pc_57/G ring_pair_0/dev_ns_35/S 0.02018f
+C524 ring_pair_0/dev_pc_62/G ring_pair_0/dev_ps_45/G 0.02125f
+C525 ring_pair_0/dev_pc_69/G ring_pair_0/dev_ps_37/S 0.07959f
+C526 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_32/G 0.05047f
+C527 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_83/G 0
+C528 ring_pair_0/dev_pc_57/G ring_pair_0/dev_ps_9/G 0.00263f
+C529 vinp ring_pair_0/dev_ps_21/S 0
+C530 ring_pair_0/dev_ns_12/S vinn 0.04272f
+C531 tapP[14] ring_pair_0/dev_pc_51/G 0.0769f
+C532 ring_pair_0/dev_pc_55/G ring_pair_0/dev_ns_34/S 0.04429f
+C533 tapN[14] ring_pair_0/dev_pc_4/G 0
+C534 VDPWR ring_pair_0/dev_ps_43/S 0.2509f
+C535 tapP[6] ring_pair_0/dev_pc_38/G 0.00372f
+C536 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_74/G 0
+C537 vinn ring_pair_0/dev_nc_9/D 0.04272f
+C538 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_19/S 0.07497f
+C539 ring_pair_0/dev_pc_49/G ring_pair_0/dev_pc_6/G 0.00246f
+C540 ring_pair_0/dev_pc_57/G tapP[1] 0.04664f
+C541 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_40/G 0.21468f
+C542 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_63/G 0.25006f
+C543 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_43/S 0.07511f
+C544 VDPWR ring_pair_0/dev_pc_44/G 0.49626f
+C545 tapP[4] ring_pair_0/dev_ns_39/S 0
+C546 ring_pair_0/dev_pc_42/G ring_pair_0/dev_pc_88/G 0
+C547 ring_pair_0/dev_ps_8/S ring_pair_0/dev_ns_8/S 0.00667f
+C548 ring_pair_0/dev_ns_31/S tapP[0] 0
+C549 tapP[0] ring_pair_0/dev_pc_51/G 0.0548f
+C550 ring_pair_0/dev_ps_42/S ring_pair_0/dev_pc_40/G 0
+C551 tapN[13] tapP[13] 0.34801f
+C552 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_36/G 0.43792f
+C553 tapP[8] tapN[8] 0.34801f
+C554 tapN[12] ring_pair_0/dev_ns_14/S 0
+C555 ring_pair_0/dev_pc_11/G VDPWR 0.50103f
+C556 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_23/G 0
+C557 vinp ring_pair_0/dev_pc_65/G 0.02045f
+C558 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_85/G 0
+C559 tapP[11] ring_pair_0/dev_pc_28/G 0.05055f
+C560 ring_pair_0/dev_pc_34/G ring_pair_0/dev_ps_42/S 0
+C561 ring_pair_0/dev_pc_79/G tapP[4] 0.02468f
+C562 ring_pair_0/dev_pc_50/G ring_pair_0/dev_pc_51/G 0.05982f
+C563 VDPWR ring_pair_0/dev_ps_37/S 0.2509f
+C564 ring_pair_0/dev_pc_43/G tapP[9] 0
+C565 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_40/G 0
+C566 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_75/G 0
+C567 vinn ring_pair_0/dev_ns_14/S 0.04272f
+C568 tapP[14] ring_pair_0/dev_pc_4/G 0
+C569 ring_pair_0/dev_pc_8/G ring_pair_0/dev_pc_6/G 0.05175f
+C570 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_65/G 0.05047f
+C571 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_37/S 0.07511f
+C572 ring_pair_0/dev_pc_47/G ring_pair_0/dev_pc_6/G 0
+C573 ring_pair_0/dev_ns_16/S ring_pair_0/dev_pc_28/G 0
+C574 VDPWR ring_pair_0/dev_ps_13/S 0.2509f
+C575 vinp tapN[6] 0
+C576 tapP[11] ring_pair_0/dev_pc_24/G 0.08102f
+C577 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_81/G 0
+C578 VDPWR tapP[5] 0.44572f
+C579 ring_pair_0/dev_ns_17/S ring_pair_0/dev_pc_28/G 0.04389f
+C580 tapP[0] ring_pair_0/dev_pc_4/G 0.05257f
+C581 tapP[14] tapN[14] 0.34801f
+C582 ring_pair_0/dev_ps_45/G tapP[5] 0.02828f
+C583 ring_pair_0/dev_pc_36/G tapP[6] 0.00193f
+C584 vinp ring_pair_0/dev_ns_37/S 0.04272f
+C585 ring_pair_0/dev_ps_20/S ring_pair_0/dev_pc_40/G 0.01321f
+C586 ring_pair_0/dev_ns_40/S ring_pair_0/dev_pc_75/G 0.01005f
+C587 tapN[0] VDPWR 0.22342f
+C588 VDPWR ring_pair_0/dev_pc_23/G 0.50103f
+C589 ring_pair_0/dev_ns_16/S ring_pair_0/dev_pc_24/G 0.02018f
+C590 ring_pair_0/dev_pc_11/G tapP[13] 0.00372f
+C591 ring_pair_0/dev_ns_33/S ring_pair_0/dev_pc_51/G 0.0239f
+C592 ring_pair_0/dev_ns_18/S vinn 0.04272f
+C593 ring_pair_0/dev_pc_43/G vinn 0.02356f
+C594 ring_pair_0/dev_pc_43/G ring_pair_0/dev_ns_45/S 0.00126f
+C595 ring_pair_0/dev_pc_69/G vinp 0.17958f
+C596 ring_pair_0/dev_pc_67/G ring_pair_0/dev_ns_37/S 0.00123f
+C597 tapN[14] tapP[0] 0.00987f
+C598 tapP[10] vinn 0.12487f
+C599 ring_pair_0/dev_ns_9/S ring_pair_0/dev_pc_6/G 0.01005f
+C600 tapN[11] ring_pair_0/dev_pc_23/G 0.31544f
+C601 ring_pair_0/dev_pc_5/G ring_pair_0/dev_pc_51/G 0
+C602 ring_pair_0/dev_pc_28/G vinn 0.0364f
+C603 ring_pair_0/dev_pc_62/G ring_pair_0/dev_pc_61/G 0.18202f
+C604 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_67/G 0.438f
+C605 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_87/G 0.01984f
+C606 tapP[6] ring_pair_0/dev_pc_81/G 0.00523f
+C607 vinp ring_pair_0/dev_pc_59/G 0.02045f
+C608 vinp ring_pair_0/dev_ns_42/S 0.04272f
+C609 ring_pair_0/dev_pc_24/G tapN[12] 0
+C610 ring_pair_0/dev_pc_50/G tapN[14] 0.00293f
+C611 ring_pair_0/dev_ps_40/S ring_pair_0/dev_pc_28/G 0
+C612 vinp tapP[3] 0.10287f
+C613 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_59/G 0
+C614 ring_pair_0/dev_pc_9/S tapN[13] 0
+C615 ring_pair_0/dev_pc_6/D ring_pair_0/dev_ps_9/G 0.07497f
+C616 vinp tapN[1] 0
+C617 ring_pair_0/dev_pc_24/G tapP[12] 0
+C618 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_59/G 0
+C619 ring_pair_0/dev_ns_31/S ring_pair_0/dev_pc_6/G 0
+C620 vinn ring_pair_0/dev_pc_24/G 0.17958f
+C621 ring_pair_0/dev_pc_51/G ring_pair_0/dev_pc_6/G 0.00633f
+C622 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_20/G 0.05047f
+C623 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_35/G 0
+C624 ring_pair_0/dev_pc_43/G ring_pair_0/dev_ps_9/G 0.07237f
+C625 ring_pair_0/dev_pc_85/G ring_pair_0/dev_ns_43/S 0
+C626 ring_pair_0/dev_pc_67/G tapP[3] 0.04632f
+C627 tapN[1] ring_pair_0/dev_pc_7/G 0.0395f
+C628 vinp VDPWR 0.65134f
+C629 VDPWR ring_pair_0/dev_ps_35/S 0.2509f
+C630 ring_pair_0/dev_pc_6/D tapP[1] 0
+C631 ring_pair_0/dev_pc_41/G ring_pair_0/dev_pc_85/G 0.0035f
+C632 tapP[10] ring_pair_0/dev_ps_9/G 0.15211f
+C633 ring_pair_0/dev_pc_40/G ring_pair_0/dev_ns_20/S 0
+C634 ring_pair_0/dev_ps_44/S VDPWR 0.2509f
+C635 ring_pair_0/dev_pc_43/G ring_pair_0/dev_ns_21/S 0.01507f
+C636 tapP[14] tapP[0] 0.00123f
+C637 ring_pair_0/dev_ps_20/S tapP[6] 0
+C638 ring_pair_0/dev_pc_8/G vinn 0.01978f
+C639 ring_pair_0/dev_pc_42/G ring_pair_0/dev_pc_40/G 0.12999f
+C640 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_28/G 0.27526f
+C641 ring_pair_0/dev_pc_7/G VDPWR 0.6721f
+C642 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_20/G 0.05175f
+C643 vinp ring_pair_0/dev_pc_26/G 0.00154f
+C644 ring_pair_0/dev_pc_49/G ring_pair_0/dev_ps_9/G 0.0026f
+C645 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_35/S 0.07511f
+C646 vinp ring_pair_0/dev_ps_45/G 0.94252f
+C647 VDPWR ring_pair_0/dev_ps_36/S 0.2509f
+C648 ring_pair_0/dev_pc_5/G ring_pair_0/dev_pc_4/G 0.18202f
+C649 ring_pair_0/dev_pc_67/G VDPWR 0.84128f
+C650 vinp tapN[11] 0
+C651 ring_pair_0/dev_ps_44/S ring_pair_0/dev_ps_45/G 0.07511f
+C652 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_42/G 0
+C653 tapN[4] ring_pair_0/dev_pc_28/G 0.04662f
+C654 tapP[7] tapN[7] 0.34801f
+C655 ring_pair_0/dev_pc_62/G ring_pair_0/dev_pc_57/G 0
+C656 ring_pair_0/dev_pc_11/G ring_pair_0/dev_pc_61/G 0
+C657 tapP[14] ring_pair_0/dev_pc_50/G 0.31544f
+C658 ring_pair_0/dev_ns_22/S vinn 0.03654f
+C659 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_36/S 0.07511f
+C660 ring_pair_0/dev_pc_53/G ring_pair_0/dev_pc_6/G 0
+C661 vinp ring_pair_0/dev_pc_80/G 0.02115f
+C662 ring_pair_0/dev_pc_67/G ring_pair_0/dev_ps_45/G 0.17675f
+C663 ring_pair_0/dev_ns_38/S ring_pair_0/dev_pc_28/G 0
+C664 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_24/G 0.04011f
+C665 ring_pair_0/dev_ps_21/S ring_pair_0/dev_pc_40/G 0.0928f
+C666 ring_pair_0/dev_ps_14/S tapN[12] 0
+C667 ring_pair_0/dev_pc_29/G vinn 0.02045f
+C668 ring_pair_0/dev_pc_4/G ring_pair_0/dev_pc_6/G 0.33251f
+C669 tapP[4] tapP[11] 0.00123f
+C670 ring_pair_0/dev_pc_5/G tapN[14] 0.31544f
+C671 tapN[4] ring_pair_0/dev_pc_24/G 0.00523f
+C672 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_11/G 0.18139f
+C673 vinp ring_pair_0/dev_ns_19/S 0
+C674 VDPWR ring_pair_0/dev_pc_88/G 0.81557f
+C675 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_24/G 0.00248f
+C676 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_8/G 0.01975f
+C677 vinp tapP[13] 0.10287f
+C678 ring_pair_0/dev_ns_18/S ring_pair_0/dev_pc_30/G 0.0239f
+C679 ring_pair_0/dev_pc_41/G vinn 0.02045f
+C680 ring_pair_0/dev_pc_71/G ring_pair_0/dev_pc_75/G 0.23466f
+C681 ring_pair_0/dev_ps_13/S tapN[2] 0
+C682 ring_pair_0/dev_pc_43/G tapN[8] 0.04487f
+C683 ring_pair_0/dev_pc_2/G VDPWR 0.50103f
+C684 VDPWR tapN[5] 0.22342f
+C685 VDPWR ring_pair_0/dev_ps_9/S 0.2509f
+C686 ring_pair_0/dev_pc_47/G ring_pair_0/dev_ps_9/G 0.00188f
+C687 ring_pair_0/dev_pc_7/G tapP[13] 0.08102f
+C688 ring_pair_0/dev_ns_9/S vinn 0.04272f
+C689 tapN[14] ring_pair_0/dev_pc_6/G 0.04536f
+C690 tapP[10] ring_pair_0/dev_pc_30/G 0.08032f
+C691 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_88/G 0.0725f
+C692 ring_pair_0/dev_ps_39/S ring_pair_0/dev_pc_75/G 0.07959f
+C693 ring_pair_0/dev_pc_8/G tapP[1] 0.00334f
+C694 tapN[13] ring_pair_0/dev_nc_9/D 0
+C695 ring_pair_0/dev_pc_28/G ring_pair_0/dev_pc_30/G 0.18904f
+C696 ring_pair_0/dev_ns_43/S ring_pair_0/dev_pc_87/G 0.04306f
+C697 tapP[6] ring_pair_0/dev_pc_42/G 0.0505f
+C698 ring_pair_0/dev_ns_18/S ring_pair_0/dev_ps_18/S 0.00667f
+C699 ring_pair_0/dev_pc_41/G ring_pair_0/dev_pc_87/G 0
+C700 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_68/G 0.05476f
+C701 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_11/G 0
+C702 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_56/G 0.00188f
+C703 ring_pair_0/dev_pc_80/G ring_pair_0/dev_pc_88/G 0
+C704 ring_pair_0/dev_pc_29/G ring_pair_0/dev_ps_9/G 0.02055f
+C705 tapN[10] ring_pair_0/dev_pc_74/G 0.00293f
+C706 tapP[14] ring_pair_0/dev_pc_5/G 0.00372f
+C707 ring_pair_0/dev_pc_9/S tapN[0] 0
+C708 ring_pair_0/dev_pc_24/G ring_pair_0/dev_pc_30/G 0.25006f
+C709 ring_pair_0/dev_ps_14/S ring_pair_0/dev_ps_9/G 0.07497f
+C710 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_56/G 0
+C711 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_41/G 0.02055f
+C712 VDPWR ring_pair_0/dev_pc_77/G 0.51215f
+C713 VDPWR ring_pair_0/dev_ps_33/S 0.2509f
+C714 tapN[6] ring_pair_0/dev_pc_40/G 0.03904f
+C715 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_9/G 0.2929f
+C716 vinp ring_pair_0/dev_ps_8/S 0
+C717 ring_pair_0/dev_ns_32/S VDPWR 0.00471f
+C718 tapN[10] ring_pair_0/dev_pc_36/G 0
+C719 ring_pair_0/dev_ns_34/S ring_pair_0/dev_pc_9/G 0
+C720 tapP[14] ring_pair_0/dev_pc_6/G 0.08032f
+C721 tapP[4] vinn 0.12487f
+C722 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_77/G 0.02125f
+C723 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_33/S 0.07511f
+C724 ring_pair_0/dev_nc_6/D ring_pair_0/dev_pc_6/G 0.0239f
+C725 ring_pair_0/dev_pc_17/G ring_pair_0/dev_pc_9/G 0.18202f
+C726 tapP[4] ring_pair_0/dev_ps_40/S 0
+C727 ring_pair_0/dev_pc_43/G ring_pair_0/dev_ps_22/S 0.08794f
+C728 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_9/G 0.18904f
+C729 ring_pair_0/dev_pc_22/G ring_pair_0/dev_ns_36/S 0
+C730 ring_pair_0/dev_pc_68/G VDPWR 0.51215f
+C731 vinp ring_pair_0/dev_pc_61/G 0.0364f
+C732 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_83/G 0
+C733 ring_pair_0/dev_pc_22/G tapN[3] 0.03918f
+C734 ring_pair_0/dev_pc_50/G ring_pair_0/dev_pc_5/G 0.00613f
+C735 ring_pair_0/dev_ps_35/S ring_pair_0/dev_pc_61/G 0.01321f
+C736 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_51/G 0.00272f
+C737 tapP[0] ring_pair_0/dev_pc_6/G 0.05251f
+C738 ring_pair_0/dev_ps_17/S VDPWR 0.2509f
+C739 vinp tapN[2] 0
+C740 ring_pair_0/dev_pc_4/G vinn 0.11148f
+C741 tapP[11] ring_pair_0/dev_ns_39/S 0
+C742 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_61/G 0
+C743 tapN[3] ring_pair_0/dev_ps_15/S 0
+C744 ring_pair_0/dev_pc_68/G ring_pair_0/dev_ps_45/G 0.02068f
+C745 ring_pair_0/dev_pc_29/G ring_pair_0/dev_pc_30/G 0.05982f
+C746 tapP[10] ring_pair_0/dev_pc_73/G 0
+C747 ring_pair_0/dev_pc_61/G ring_pair_0/dev_ps_36/S 0.0928f
+C748 ring_pair_0/dev_pc_7/G tapN[2] 0.00523f
+C749 ring_pair_0/dev_ps_38/S ring_pair_0/dev_pc_28/G 0
+C750 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_38/G 0.03519f
+C751 ring_pair_0/dev_pc_68/G tapN[11] 0.00293f
+C752 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_61/G 0.29336f
+C753 tapP[1] ring_pair_0/dev_pc_51/G 0.00553f
+C754 ring_pair_0/dev_pc_9/S vinp 0.00217f
+C755 tapN[3] ring_pair_0/dev_pc_18/G 0.00553f
+C756 ring_pair_0/dev_pc_40/G ring_pair_0/dev_ns_42/S 0
+C757 ring_pair_0/dev_pc_50/G ring_pair_0/dev_pc_6/G 0
+C758 ring_pair_0/dev_pc_73/G ring_pair_0/dev_pc_28/G 0.00623f
+C759 ring_pair_0/dev_pc_86/G ring_pair_0/dev_pc_81/G 0
+C760 tapP[4] ring_pair_0/dev_ps_9/G 0.15155f
+C761 vinp tapP[8] 0.10217f
+C762 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_7/G 0.438f
+C763 vinp ring_pair_0/dev_ns_44/S 0.04272f
+C764 tapN[8] ring_pair_0/dev_pc_41/G 0.31544f
+C765 tapN[14] vinn 0.06027f
+C766 ring_pair_0/dev_ps_12/S tapP[2] 0
+C767 ring_pair_0/dev_pc_34/G ring_pair_0/dev_ns_42/S 0
+C768 tapP[6] tapN[6] 0.34801f
+C769 tapP[4] tapN[4] 0.34801f
+C770 ring_pair_0/dev_ps_44/S ring_pair_0/dev_ns_44/S 0.00667f
+C771 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_85/G 0.30161f
+C772 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_53/G 0.00188f
+C773 ring_pair_0/dev_pc_73/G ring_pair_0/dev_pc_24/G 0
+C774 ring_pair_0/dev_pc_38/G ring_pair_0/dev_pc_81/G 0
+C775 ring_pair_0/dev_pc_79/G tapP[9] 0
+C776 VDPWR ring_pair_0/dev_pc_40/G 0.96699f
+C777 ring_pair_0/dev_pc_14/G tapP[2] 0.00372f
+C778 ring_pair_0/dev_pc_42/G tapN[7] 0.00572f
+C779 ring_pair_0/dev_pc_4/G ring_pair_0/dev_ps_9/G 0.50138f
+C780 vinp ring_pair_0/dev_pc_57/G 0.17958f
+C781 ring_pair_0/dev_pc_57/G ring_pair_0/dev_ps_35/S 0.02172f
+C782 ring_pair_0/dev_pc_55/G ring_pair_0/dev_pc_9/G 0
+C783 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_32/G 0.21809f
+C784 tapP[1] ring_pair_0/dev_pc_53/G 0.31544f
+C785 ring_pair_0/dev_pc_34/G VDPWR 0.81598f
+C786 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_7/G 0.00635f
+C787 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_65/G 0
+C788 vinp ring_pair_0/dev_ps_19/S 0
+C789 ring_pair_0/dev_ns_33/S ring_pair_0/dev_pc_6/G 0
+C790 ring_pair_0/dev_ps_41/S ring_pair_0/dev_pc_36/G 0
+C791 ring_pair_0/dev_ps_22/S ring_pair_0/dev_ns_22/S 0.00667f
+C792 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_57/G 0
+C793 ring_pair_0/dev_pc_32/G ring_pair_0/dev_pc_75/G 0
+C794 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_44/G 0.18179f
+C795 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_26/G 0
+C796 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_2/G 0
+C797 tapP[8] ring_pair_0/dev_pc_88/G 0.05201f
+C798 tapN[14] ring_pair_0/dev_ps_9/G 0.00721f
+C799 ring_pair_0/dev_pc_9/S ring_pair_0/dev_ps_9/S 0.0205f
+C800 tapP[14] vinn 0.12487f
+C801 ring_pair_0/dev_pc_80/G ring_pair_0/dev_pc_40/G 0
+C802 ring_pair_0/dev_pc_75/G ring_pair_0/dev_pc_74/G 0.05982f
+C803 ring_pair_0/dev_ns_44/S ring_pair_0/dev_pc_88/G 0.01507f
+C804 ring_pair_0/dev_nc_6/D vinn 0.04272f
+C805 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_65/G 0
+C806 tapP[4] ring_pair_0/dev_pc_30/G 0.05251f
+C807 ring_pair_0/dev_pc_32/G ring_pair_0/dev_pc_81/G 0.00357f
+C808 ring_pair_0/dev_ps_41/S ring_pair_0/dev_pc_75/G 0.02132f
+C809 ring_pair_0/dev_pc_5/G ring_pair_0/dev_pc_6/G 0.05982f
+C810 tapP[9] tapN[9] 0.34801f
+C811 ring_pair_0/dev_pc_29/G ring_pair_0/dev_pc_73/G 0.0035f
+C812 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_74/G 0
+C813 ring_pair_0/dev_pc_14/G vinn 0.02045f
+C814 ring_pair_0/dev_ns_15/S vinn 0.04272f
+C815 ring_pair_0/dev_ns_40/S VDPWR 0.00471f
+C816 ring_pair_0/dev_ns_19/S ring_pair_0/dev_pc_40/G 0.01384f
+C817 ring_pair_0/dev_ps_41/S ring_pair_0/dev_pc_81/G 0.07959f
+C818 tapP[0] vinn 0.12487f
+C819 ring_pair_0/dev_ns_12/S vinp 0
+C820 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_9/D 0.07497f
+C821 ring_pair_0/dev_pc_79/G ring_pair_0/dev_ps_40/S 0.0205f
+C822 vinp ring_pair_0/dev_nc_9/D 0
+C823 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_75/G 0.00248f
+C824 tapP[6] VDPWR 0.44576f
+C825 ring_pair_0/dev_ns_12/S ring_pair_0/dev_pc_7/G 0.02018f
+C826 ring_pair_0/dev_pc_34/G ring_pair_0/dev_ns_19/S 0.04429f
+C827 ring_pair_0/dev_pc_56/G tapN[13] 0.00293f
+C828 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_87/G 0
+C829 ring_pair_0/dev_pc_7/G ring_pair_0/dev_nc_9/D 0.00634f
+C830 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_22/G 0
+C831 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_81/G 0.00635f
+C832 tapP[14] ring_pair_0/dev_ps_9/G 0.15211f
+C833 ring_pair_0/dev_pc_86/G ring_pair_0/dev_pc_42/G 0
+C834 tapP[6] ring_pair_0/dev_ps_45/G 0.02772f
+C835 tapP[10] tapP[5] 0.00123f
+C836 ring_pair_0/dev_pc_9/S ring_pair_0/dev_ns_32/S 0
+C837 ring_pair_0/dev_ps_12/S ring_pair_0/dev_ps_9/G 0.07497f
+C838 ring_pair_0/dev_ns_37/S ring_pair_0/dev_pc_18/G 0
+C839 ring_pair_0/dev_ps_42/S ring_pair_0/dev_pc_81/G 0.00123f
+C840 ring_pair_0/dev_ps_37/S ring_pair_0/dev_pc_24/G 0
+C841 vinn tapN[9] 0.06097f
+C842 ring_pair_0/dev_pc_79/G ring_pair_0/dev_ps_9/G 0.00254f
+C843 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_75/G 0.25793f
+C844 ring_pair_0/dev_pc_14/G ring_pair_0/dev_ps_9/G 0.01999f
+C845 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_35/G 0.0035f
+C846 tapP[14] tapP[1] 0.00123f
+C847 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_18/G 0
+C848 tapP[0] ring_pair_0/dev_ps_9/G 0.15155f
+C849 ring_pair_0/dev_pc_38/G ring_pair_0/dev_pc_42/G 0.23466f
+C850 ring_pair_0/dev_pc_22/G tapP[3] 0.04538f
+C851 vinp ring_pair_0/dev_ns_14/S 0
+C852 ring_pair_0/dev_pc_28/G ring_pair_0/dev_pc_23/G 0.06147f
+C853 ring_pair_0/dev_ps_43/S ring_pair_0/dev_ns_43/S 0.00667f
+C854 ring_pair_0/dev_pc_4/G ring_pair_0/dev_ns_8/S 0.01662f
+C855 ring_pair_0/dev_pc_57/G ring_pair_0/dev_ps_33/S 0.07959f
+C856 ring_pair_0/dev_pc_14/G ring_pair_0/dev_pc_63/G 0.00358f
+C857 ring_pair_0/dev_pc_36/G ring_pair_0/dev_ps_20/S 0.02172f
+C858 ring_pair_0/dev_pc_83/G ring_pair_0/dev_pc_85/G 0.05589f
+C859 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_59/G 0
+C860 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_71/G 0.04076f
+C861 ring_pair_0/dev_pc_50/G ring_pair_0/dev_ps_9/G 0.00188f
+C862 ring_pair_0/dev_pc_42/G ring_pair_0/dev_ps_45/S 0
+C863 tapP[4] ring_pair_0/dev_pc_73/G 0.05375f
+C864 ring_pair_0/dev_pc_22/G VDPWR 0.81598f
+C865 ring_pair_0/dev_pc_18/G tapP[3] 0.00193f
+C866 ring_pair_0/dev_ns_32/S ring_pair_0/dev_ps_32/S 0.00667f
+C867 ring_pair_0/dev_pc_69/G ring_pair_0/dev_ps_39/S 0.02172f
+C868 ring_pair_0/dev_pc_11/G ring_pair_0/dev_pc_56/G 0.00613f
+C869 VDPWR ring_pair_0/dev_ns_34/S 0.00471f
+C870 ring_pair_0/dev_ps_41/S ring_pair_0/dev_ns_41/S 0.00667f
+C871 ring_pair_0/dev_pc_23/G ring_pair_0/dev_pc_24/G 0.05476f
+C872 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_26/G 0
+C873 ring_pair_0/dev_ns_39/S ring_pair_0/dev_pc_30/G 0
+C874 ring_pair_0/dev_ps_9/G tapN[9] 0.00665f
+C875 ring_pair_0/dev_pc_35/G tapN[9] 0.31544f
+C876 ring_pair_0/dev_ps_15/S VDPWR 0.2509f
+C877 ring_pair_0/dev_pc_6/D vinp 0
+C878 ring_pair_0/dev_pc_5/G vinn 0.02045f
+C879 ring_pair_0/dev_pc_22/G tapN[11] 0
+C880 VDPWR ring_pair_0/dev_pc_17/G 0.501f
+C881 ring_pair_0/dev_pc_18/G VDPWR 0.66227f
+C882 ring_pair_0/dev_pc_89/G ring_pair_0/dev_pc_85/G 0
+C883 vinp ring_pair_0/dev_ns_18/S 0
+C884 ring_pair_0/dev_pc_43/G vinp 0.00603f
+C885 ring_pair_0/dev_pc_20/G ring_pair_0/dev_pc_9/G 0
+C886 ring_pair_0/dev_pc_6/D ring_pair_0/dev_pc_7/G 0.07959f
+C887 tapP[7] ring_pair_0/dev_pc_42/G 0.00193f
+C888 ring_pair_0/dev_pc_36/G ring_pair_0/dev_ns_41/S 0
+C889 ring_pair_0/dev_pc_43/G ring_pair_0/dev_ps_44/S 0
+C890 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_30/G 0
+C891 vinp tapP[10] 0.10217f
+C892 tapP[8] ring_pair_0/dev_pc_40/G 0
+C893 tapN[0] ring_pair_0/dev_pc_47/G 0.00293f
+C894 tapN[11] ring_pair_0/dev_pc_18/G 0
+C895 ring_pair_0/dev_ns_44/S ring_pair_0/dev_pc_40/G 0
+C896 vinp ring_pair_0/dev_pc_28/G 0.00218f
+C897 tapP[9] ring_pair_0/dev_pc_85/G 0.05186f
+C898 vinn ring_pair_0/dev_pc_6/G 0.28436f
+C899 ring_pair_0/dev_pc_71/G VDPWR 0.51215f
+C900 ring_pair_0/dev_pc_49/G vinp 0.11148f
+C901 ring_pair_0/dev_ns_41/S ring_pair_0/dev_pc_75/G 0.0239f
+C902 VDPWR tapN[7] 0.20221f
+C903 ring_pair_0/dev_pc_36/G ring_pair_0/dev_ns_20/S 0.02018f
+C904 tapN[3] ring_pair_0/dev_pc_20/G 0.31544f
+C905 VDPWR ring_pair_0/dev_ps_39/S 0.2509f
+C906 ring_pair_0/dev_pc_71/G ring_pair_0/dev_pc_26/G 0.00613f
+C907 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_42/G 0.24449f
+C908 ring_pair_0/dev_pc_55/G ring_pair_0/dev_pc_59/G 0
+C909 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_28/G 0
+C910 ring_pair_0/dev_pc_71/G ring_pair_0/dev_ps_45/G 0.02068f
+C911 ring_pair_0/dev_ns_33/S tapP[1] 0
+C912 ring_pair_0/dev_ns_34/S tapP[13] 0
+C913 ring_pair_0/dev_ns_41/S ring_pair_0/dev_pc_81/G 0.04306f
+C914 ring_pair_0/dev_pc_5/G ring_pair_0/dev_ps_9/G 0.02055f
+C915 vinp ring_pair_0/dev_pc_24/G 0.0021f
+C916 ring_pair_0/dev_pc_83/G ring_pair_0/dev_pc_87/G 0.23466f
+C917 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_39/S 0.07511f
+C918 tapP[11] vinn 0.12557f
+C919 tapN[9] ring_pair_0/dev_pc_30/G 0
+C920 ring_pair_0/dev_pc_38/G tapN[6] 0.31544f
+C921 ring_pair_0/dev_pc_18/G tapP[13] 0
+C922 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_88/G 0.00675f
+C923 ring_pair_0/dev_ps_19/S ring_pair_0/dev_pc_40/G 0.02149f
+C924 tapP[2] tapN[12] 0.00987f
+C925 ring_pair_0/dev_ns_18/S tapN[5] 0
+C926 vinp ring_pair_0/dev_pc_8/G 0.00154f
+C927 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_24/G 0
+C928 VDPWR ring_pair_0/dev_pc_55/G 0.84128f
+C929 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_6/G 0.03922f
+C930 ring_pair_0/dev_pc_81/G ring_pair_0/dev_pc_42/G 0.00247f
+C931 tapP[2] tapP[12] 0.00123f
+C932 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_83/G 0.00188f
+C933 vinp ring_pair_0/dev_pc_47/G 0.02045f
+C934 ring_pair_0/dev_pc_34/G ring_pair_0/dev_ps_19/S 0.08728f
+C935 tapP[10] tapN[5] 0.00987f
+C936 tapP[2] vinn 0.12487f
+C937 tapP[9] vinn 0.12557f
+C938 ring_pair_0/dev_ns_39/S ring_pair_0/dev_pc_73/G 0
+C939 ring_pair_0/dev_ns_16/S vinn 0.04272f
+C940 ring_pair_0/dev_pc_8/G ring_pair_0/dev_pc_7/G 0.21809f
+C941 ring_pair_0/dev_ns_13/S tapN[12] 0
+C942 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_55/G 0.17675f
+C943 ring_pair_0/dev_pc_89/G ring_pair_0/dev_pc_87/G 0.06286f
+C944 tapP[8] tapP[6] 0.00123f
+C945 tapP[1] ring_pair_0/dev_pc_6/G 0.00193f
+C946 vinp ring_pair_0/dev_ns_22/S 0
+C947 ring_pair_0/dev_pc_49/G ring_pair_0/dev_pc_2/G 0
+C948 ring_pair_0/dev_ns_17/S vinn 0.04272f
+C949 ring_pair_0/dev_pc_85/G ring_pair_0/dev_pc_87/G 0.12999f
+C950 tapN[10] VDPWR 0.22342f
+C951 vinn ring_pair_0/dev_ns_13/S 0.04272f
+C952 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_73/G 0.29336f
+C953 ring_pair_0/dev_pc_29/G vinp 0.00154f
+C954 vinp ring_pair_0/dev_pc_56/G 0.02115f
+C955 tapP[9] ring_pair_0/dev_pc_87/G 0
+C956 tapP[11] ring_pair_0/dev_ps_9/G 0.15155f
+C957 ring_pair_0/dev_ps_20/S ring_pair_0/dev_ns_20/S 0.00667f
+C958 ring_pair_0/dev_pc_20/G ring_pair_0/dev_pc_65/G 0.00613f
+C959 tapN[12] tapP[12] 0.34801f
+C960 ring_pair_0/dev_ps_20/S ring_pair_0/dev_pc_42/G 0.07959f
+C961 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_56/G 0
+C962 vinp ring_pair_0/dev_ns_43/S 0.04272f
+C963 tapN[4] tapP[11] 0.00987f
+C964 vinn tapN[12] 0.06027f
+C965 ring_pair_0/dev_ps_14/S vinp 0
+C966 ring_pair_0/dev_pc_86/G VDPWR 0.51211f
+C967 vinp ring_pair_0/dev_pc_41/G 0.00154f
+C968 tapP[2] ring_pair_0/dev_ns_35/S 0
+C969 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_61/G 0
+C970 ring_pair_0/dev_pc_35/G ring_pair_0/dev_pc_85/G 0
+C971 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_85/G 0.00242f
+C972 tapP[11] ring_pair_0/dev_pc_63/G 0
+C973 ring_pair_0/dev_pc_22/G tapN[2] 0
+C974 vinn tapP[12] 0.12487f
+C975 tapP[9] ring_pair_0/dev_ps_9/G 0.15155f
+C976 vinp ring_pair_0/dev_ns_9/S 0
+C977 ring_pair_0/dev_pc_55/G tapP[13] 0
+C978 ring_pair_0/dev_pc_61/G ring_pair_0/dev_ns_34/S 0.01384f
+C979 tapP[2] ring_pair_0/dev_ps_9/G 0.15155f
+C980 tapP[9] ring_pair_0/dev_pc_35/G 0.00372f
+C981 ring_pair_0/dev_ns_38/S tapP[11] 0
+C982 ring_pair_0/dev_pc_86/G ring_pair_0/dev_ps_45/G 0.02125f
+C983 ring_pair_0/dev_pc_36/G tapN[6] 0.00523f
+C984 ring_pair_0/dev_pc_47/G ring_pair_0/dev_pc_2/G 0.00613f
+C985 ring_pair_0/dev_pc_61/G ring_pair_0/dev_pc_17/G 0.0035f
+C986 tapN[4] ring_pair_0/dev_ns_16/S 0
+C987 VDPWR ring_pair_0/dev_pc_38/G 0.50103f
+C988 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_74/G 0
+C989 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_61/G 0
+C990 ring_pair_0/dev_pc_49/G ring_pair_0/dev_ns_32/S 0.04389f
+C991 tapP[2] ring_pair_0/dev_pc_63/G 0.0548f
+C992 tapN[0] ring_pair_0/dev_pc_4/G 0.04674f
+C993 ring_pair_0/dev_pc_9/S ring_pair_0/dev_ns_34/S 0
+C994 ring_pair_0/dev_pc_18/G tapN[2] 0.04766f
+C995 ring_pair_0/dev_pc_9/G ring_pair_0/dev_ns_36/S 0
+C996 vinp ring_pair_0/dev_pc_51/G 0.28436f
+C997 vinp ring_pair_0/dev_ns_31/S 0.04272f
+C998 ring_pair_0/dev_ns_45/S ring_pair_0/dev_pc_87/G 0.0239f
+C999 ring_pair_0/dev_pc_68/G ring_pair_0/dev_pc_28/G 0
+C1000 ring_pair_0/dev_ps_34/S ring_pair_0/dev_ns_34/S 0.00667f
+C1001 VDPWR ring_pair_0/dev_ps_45/S 0.25606f
+C1002 ring_pair_0/dev_ps_17/S tapP[10] 0
+C1003 ring_pair_0/dev_ps_9/G tapN[12] 0.00721f
+C1004 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_18/G 0
+C1005 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_20/G 0.00357f
+C1006 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_51/G 0.00248f
+C1007 ring_pair_0/dev_pc_88/G ring_pair_0/dev_ns_43/S 0
+C1008 ring_pair_0/dev_ps_17/S ring_pair_0/dev_pc_28/G 0.0928f
+C1009 tapP[11] ring_pair_0/dev_pc_30/G 0
+C1010 ring_pair_0/dev_ps_9/G tapP[12] 0.15211f
+C1011 ring_pair_0/dev_pc_41/G ring_pair_0/dev_pc_88/G 0
+C1012 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_45/S 0.0669f
+C1013 ring_pair_0/dev_pc_42/G ring_pair_0/dev_ns_20/S 0.04306f
+C1014 ring_pair_0/dev_pc_35/G vinn 0.02115f
+C1015 ring_pair_0/dev_ps_9/G vinn 0.94252f
+C1016 vinp tapP[4] 0.10217f
+C1017 ring_pair_0/dev_pc_6/G ring_pair_0/dev_ns_8/S 0.04306f
+C1018 ring_pair_0/dev_pc_32/G VDPWR 0.50103f
+C1019 ring_pair_0/dev_pc_57/G ring_pair_0/dev_ns_34/S 0.00634f
+C1020 ring_pair_0/dev_pc_68/G ring_pair_0/dev_pc_24/G 0
+C1021 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_75/G 0.25006f
+C1022 ring_pair_0/dev_ns_9/S ring_pair_0/dev_ps_9/S 0.00667f
+C1023 tapN[4] vinn 0.06027f
+C1024 ring_pair_0/dev_ns_21/S vinn 0.04272f
+C1025 tapP[9] ring_pair_0/dev_pc_30/G 0
+C1026 ring_pair_0/dev_pc_63/G tapP[12] 0.0769f
+C1027 VDPWR tapP[7] 0.37996f
+C1028 VDPWR ring_pair_0/dev_pc_74/G 0.51211f
+C1029 ring_pair_0/dev_ns_16/S ring_pair_0/dev_pc_30/G 0.04306f
+C1030 tapP[1] vinn 0.12557f
+C1031 ring_pair_0/dev_pc_20/G tapP[3] 0.00372f
+C1032 ring_pair_0/dev_ps_41/S VDPWR 0.2509f
+C1033 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_40/G 0.60145f
+C1034 vinp ring_pair_0/dev_pc_53/G 0.02045f
+C1035 ring_pair_0/dev_ns_17/S ring_pair_0/dev_pc_30/G 0.01005f
+C1036 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_18/G 0.00247f
+C1037 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_87/G 0.00233f
+C1038 ring_pair_0/dev_ps_42/S ring_pair_0/dev_ns_42/S 0.00667f
+C1039 tapP[8] tapN[7] 0.00987f
+C1040 vinp ring_pair_0/dev_pc_4/G 0.00226f
+C1041 ring_pair_0/dev_ps_45/G tapP[7] 0
+C1042 ring_pair_0/dev_pc_55/G ring_pair_0/dev_pc_61/G 0.30161f
+C1043 ring_pair_0/dev_ps_21/S ring_pair_0/dev_pc_42/G 0
+C1044 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_53/G 0
+C1045 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_74/G 0.02125f
+C1046 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_34/G 0.00215f
+C1047 ring_pair_0/dev_ns_18/S ring_pair_0/dev_pc_34/G 0.00123f
+C1048 ring_pair_0/dev_ps_41/S ring_pair_0/dev_ps_45/G 0.07511f
+C1049 ring_pair_0/dev_pc_2/G ring_pair_0/dev_pc_51/G 0.00358f
+C1050 VDPWR ring_pair_0/dev_pc_20/G 0.50103f
+C1051 ring_pair_0/dev_pc_4/G ring_pair_0/dev_pc_7/G 0
+C1052 ring_pair_0/dev_pc_79/G tapP[5] 0.04632f
+C1053 ring_pair_0/dev_pc_36/G VDPWR 0.6698f
+C1054 ring_pair_0/dev_pc_34/G tapP[10] 0.05111f
+C1055 ring_pair_0/dev_pc_81/G ring_pair_0/dev_ns_42/S 0.00634f
+C1056 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_35/G 0.01999f
+C1057 ring_pair_0/dev_ps_42/S VDPWR 0.2509f
+C1058 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_55/G 0.00629f
+C1059 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_28/G 0.2929f
+C1060 tapN[14] vinp 0
+C1061 tapN[4] ring_pair_0/dev_ps_9/G 0.00665f
+C1062 ring_pair_0/dev_pc_63/G ring_pair_0/dev_ns_35/S 0.04306f
+C1063 VDPWR ring_pair_0/dev_pc_75/G 0.67881f
+C1064 ring_pair_0/dev_ps_9/G tapP[1] 0.15211f
+C1065 vinn ring_pair_0/dev_pc_30/G 0.28436f
+C1066 ring_pair_0/dev_ps_34/S ring_pair_0/dev_pc_55/G 0.08728f
+C1067 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_63/G 0.00272f
+C1068 tapN[13] ring_pair_0/dev_pc_6/G 0
+C1069 tapN[8] vinn 0.06027f
+C1070 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_42/S 0.07511f
+C1071 tapN[14] ring_pair_0/dev_pc_7/G 0
+C1072 tapN[0] tapP[0] 0.34801f
+C1073 ring_pair_0/dev_pc_75/G ring_pair_0/dev_pc_26/G 0.00358f
+C1074 ring_pair_0/dev_ns_12/S ring_pair_0/dev_pc_18/G 0.04306f
+C1075 tapN[3] ring_pair_0/dev_pc_65/G 0.00293f
+C1076 tapP[11] ring_pair_0/dev_pc_73/G 0.05186f
+C1077 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_75/G 0.03951f
+C1078 VDPWR ring_pair_0/dev_pc_81/G 0.68664f
+C1079 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_24/G 0
+C1080 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_80/G 0
+C1081 ring_pair_0/dev_ps_16/S VDPWR 0.2509f
+C1082 ring_pair_0/dev_ns_40/S tapP[10] 0
+C1083 ring_pair_0/dev_pc_51/G ring_pair_0/dev_ps_33/S 0.02132f
+C1084 tapP[5] tapN[9] 0.00987f
+C1085 vinp ring_pair_0/dev_pc_9/D 0
+C1086 ring_pair_0/dev_pc_43/G tapP[6] 0.07213f
+C1087 ring_pair_0/dev_pc_4/G ring_pair_0/dev_pc_2/G 0.06349f
+C1088 ring_pair_0/dev_ns_40/S ring_pair_0/dev_pc_28/G 0
+C1089 ring_pair_0/dev_ns_32/S ring_pair_0/dev_pc_51/G 0.01005f
+C1090 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_55/G 0.438f
+C1091 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_81/G 0.04057f
+C1092 ring_pair_0/dev_pc_4/G ring_pair_0/dev_ps_9/S 0.0928f
+C1093 ring_pair_0/dev_pc_80/G ring_pair_0/dev_pc_75/G 0
+C1094 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_9/D 0.00123f
+C1095 ring_pair_0/dev_pc_36/G ring_pair_0/dev_ns_19/S 0.00634f
+C1096 tapN[6] ring_pair_0/dev_ns_20/S 0
+C1097 ring_pair_0/dev_ps_16/S tapN[11] 0
+C1098 ring_pair_0/dev_pc_42/G tapN[6] 0.04566f
+C1099 ring_pair_0/dev_pc_55/G ring_pair_0/dev_ps_32/S 0.0205f
+C1100 ring_pair_0/dev_pc_22/G ring_pair_0/dev_ns_14/S 0.00123f
+C1101 vinp ring_pair_0/dev_ns_39/S 0.04272f
+C1102 ring_pair_0/dev_pc_86/G tapP[8] 0.31544f
+C1103 tapP[14] vinp 0.10217f
+C1104 ring_pair_0/dev_nc_6/D vinp 0
+C1105 vinp ring_pair_0/dev_ps_12/S 0
+C1106 vinn ring_pair_0/dev_ns_8/S 0.04272f
+C1107 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_30/G 0.03906f
+C1108 ring_pair_0/dev_pc_80/G ring_pair_0/dev_pc_81/G 0.05476f
+C1109 ring_pair_0/dev_pc_35/G ring_pair_0/dev_pc_30/G 0
+C1110 ring_pair_0/dev_ps_20/S VDPWR 0.2509f
+C1111 tapN[8] ring_pair_0/dev_ps_9/G 0.00721f
+C1112 tapP[14] ring_pair_0/dev_pc_7/G 0
+C1113 ring_pair_0/dev_ps_12/S ring_pair_0/dev_pc_7/G 0.02172f
+C1114 ring_pair_0/dev_nc_6/D ring_pair_0/dev_pc_7/G 0.04306f
+C1115 tapN[4] ring_pair_0/dev_pc_30/G 0.04766f
+C1116 ring_pair_0/dev_pc_79/G vinp 0.03743f
+C1117 vinp ring_pair_0/dev_pc_14/G 0.00154f
+C1118 vinp ring_pair_0/dev_ns_15/S 0
+C1119 ring_pair_0/dev_ns_21/S tapN[8] 0
+C1120 ring_pair_0/dev_pc_18/G ring_pair_0/dev_ns_14/S 0.0239f
+C1121 ring_pair_0/dev_pc_29/G ring_pair_0/dev_pc_34/G 0.05565f
+C1122 vinp tapP[0] 0.10217f
+C1123 ring_pair_0/dev_pc_59/G ring_pair_0/dev_pc_9/G 0
+C1124 ring_pair_0/dev_pc_41/G ring_pair_0/dev_pc_40/G 0.18202f
+C1125 ring_pair_0/dev_pc_11/G ring_pair_0/dev_pc_6/G 0
+C1126 ring_pair_0/dev_pc_14/G ring_pair_0/dev_pc_7/G 0.04076f
+C1127 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_18/S 0.07497f
+C1128 tapN[1] ring_pair_0/dev_pc_9/G 0
+C1129 ring_pair_0/dev_pc_4/G ring_pair_0/dev_ns_32/S 0
+C1130 ring_pair_0/dev_pc_85/G ring_pair_0/dev_ps_43/S 0.01321f
+C1131 ring_pair_0/dev_pc_50/G vinp 0.02045f
+C1132 ring_pair_0/dev_pc_44/G ring_pair_0/dev_pc_89/G 0.00613f
+C1133 ring_pair_0/dev_ns_41/S VDPWR 0.00471f
+C1134 VDPWR ring_pair_0/dev_pc_9/G 0.967f
+C1135 ring_pair_0/dev_pc_62/G tapN[12] 0.00293f
+C1136 ring_pair_0/dev_ps_22/S ring_pair_0/dev_pc_87/G 0
+C1137 ring_pair_0/dev_ps_40/S ring_pair_0/dev_pc_73/G 0.0928f
+C1138 tapN[3] tapP[3] 0.34801f
+C1139 vinp tapN[9] 0
+C1140 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_28/G 0.30115f
+C1141 tapP[14] ring_pair_0/dev_ps_9/S 0
+C1142 tapN[13] vinn 0.06097f
+C1143 ring_pair_0/dev_pc_62/G tapP[12] 0.31544f
+C1144 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_88/G 0.00215f
+C1145 ring_pair_0/dev_ps_15/S ring_pair_0/dev_pc_28/G 0.02149f
+C1146 tapP[8] tapP[7] 0.00123f
+C1147 VDPWR ring_pair_0/dev_ns_20/S 0.00471f
+C1148 VDPWR ring_pair_0/dev_ns_36/S 0.00471f
+C1149 VDPWR ring_pair_0/dev_pc_42/G 0.67434f
+C1150 ring_pair_0/dev_ps_22/S ring_pair_0/dev_ps_9/G 0.0669f
+C1151 tapN[3] VDPWR 0.22342f
+C1152 tapN[0] ring_pair_0/dev_pc_6/G 0.04766f
+C1153 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_28/G 0
+C1154 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_24/G 0.438f
+C1155 tapP[0] ring_pair_0/dev_pc_2/G 0.00372f
+C1156 tapP[6] ring_pair_0/dev_ns_43/S 0
+C1157 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_73/G 0.00242f
+C1158 vinp ring_pair_0/dev_ns_33/S 0.04272f
+C1159 ring_pair_0/dev_ps_18/S ring_pair_0/dev_pc_30/G 0.02132f
+C1160 ring_pair_0/dev_pc_43/G tapN[7] 0
+C1161 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_65/G 0.21809f
+C1162 ring_pair_0/dev_ps_15/S ring_pair_0/dev_pc_24/G 0.00123f
+C1163 tapP[8] ring_pair_0/dev_pc_36/G 0
+C1164 tapP[4] ring_pair_0/dev_pc_34/G 0.0307f
+C1165 ring_pair_0/dev_pc_71/G ring_pair_0/dev_pc_28/G 0
+C1166 ring_pair_0/dev_pc_17/G ring_pair_0/dev_pc_24/G 0
+C1167 ring_pair_0/dev_ns_33/S ring_pair_0/dev_pc_7/G 0
+C1168 ring_pair_0/dev_pc_63/G ring_pair_0/dev_pc_73/G 0
+C1169 tapP[13] ring_pair_0/dev_pc_9/G 0.05055f
+C1170 tapP[5] ring_pair_0/dev_pc_85/G 0.02468f
+C1171 ring_pair_0/dev_ps_21/S VDPWR 0.2509f
+C1172 ring_pair_0/dev_pc_18/G ring_pair_0/dev_pc_24/G 0.25793f
+C1173 ring_pair_0/dev_ps_9/G tapN[13] 0.00665f
+C1174 ring_pair_0/dev_ns_38/S ring_pair_0/dev_ps_38/S 0.00667f
+C1175 tapP[9] tapP[5] 0.00123f
+C1176 ring_pair_0/dev_pc_5/G vinp 0.00154f
+C1177 tapP[11] ring_pair_0/dev_pc_23/G 0.00372f
+C1178 ring_pair_0/dev_pc_44/G vinn 0
+C1179 tapP[14] ring_pair_0/dev_ns_32/S 0
+C1180 ring_pair_0/dev_pc_62/G ring_pair_0/dev_ps_9/G 0.00188f
+C1181 ring_pair_0/dev_ns_38/S ring_pair_0/dev_pc_73/G 0.01384f
+C1182 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_77/G 0.05047f
+C1183 ring_pair_0/dev_ps_43/S ring_pair_0/dev_pc_87/G 0.07959f
+C1184 ring_pair_0/dev_pc_5/G ring_pair_0/dev_pc_7/G 0
+C1185 tapP[3] ring_pair_0/dev_pc_65/G 0.31544f
+C1186 tapP[1] tapN[13] 0.00987f
+C1187 ring_pair_0/dev_ps_13/S ring_pair_0/dev_ns_13/S 0.00667f
+C1188 ring_pair_0/dev_pc_71/G ring_pair_0/dev_pc_24/G 0
+C1189 ring_pair_0/dev_pc_11/G vinn 0.02115f
+C1190 tapP[8] ring_pair_0/dev_pc_81/G 0
+C1191 ring_pair_0/dev_pc_62/G ring_pair_0/dev_pc_63/G 0.05982f
+C1192 vinp ring_pair_0/dev_pc_6/G 0.00202f
+C1193 ring_pair_0/dev_pc_44/G ring_pair_0/dev_pc_87/G 0.00189f
+C1194 ring_pair_0/dev_ps_39/S ring_pair_0/dev_pc_24/G 0
+C1195 ring_pair_0/dev_ns_40/S tapP[4] 0
+C1196 vinp ring_pair_0/dev_pc_83/G 0.02045f
+C1197 ring_pair_0/dev_pc_69/G ring_pair_0/dev_ns_37/S 0.04306f
+C1198 ring_pair_0/dev_pc_36/G ring_pair_0/dev_ps_19/S 0.00123f
+C1199 VDPWR ring_pair_0/dev_pc_65/G 0.51215f
+C1200 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_6/G 0.25793f
+C1201 ring_pair_0/dev_pc_22/G ring_pair_0/dev_ps_14/S 0.00835f
+C1202 ring_pair_0/dev_pc_49/G ring_pair_0/dev_pc_55/G 0.29342f
+C1203 ring_pair_0/dev_ps_13/S tapP[12] 0
+C1204 ring_pair_0/dev_pc_73/G ring_pair_0/dev_pc_30/G 0
+C1205 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_44/G 0
+C1206 tapP[5] vinn 0.12557f
+C1207 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_65/G 0.02125f
+C1208 tapP[10] tapN[10] 0.34801f
+C1209 vinp tapP[11] 0.10287f
+C1210 vinp ring_pair_0/dev_pc_89/G 0
+C1211 ring_pair_0/dev_ns_37/S tapP[3] 0
+C1212 ring_pair_0/dev_ps_14/S ring_pair_0/dev_pc_18/G 0.02132f
+C1213 ring_pair_0/dev_pc_86/G ring_pair_0/dev_pc_43/G 0
+C1214 VDPWR tapN[6] 0.22342f
+C1215 tapN[10] ring_pair_0/dev_pc_28/G 0
+C1216 ring_pair_0/dev_ns_22/S tapN[7] 0
+C1217 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_11/G 0.01999f
+C1218 tapN[0] vinn 0.06027f
+C1219 vinn ring_pair_0/dev_pc_23/G 0.02115f
+C1220 ring_pair_0/dev_pc_69/G tapP[3] 0.04664f
+C1221 vinp ring_pair_0/dev_pc_85/G 0.0364f
+C1222 ring_pair_0/dev_pc_61/G ring_pair_0/dev_pc_9/G 0.00623f
+C1223 ring_pair_0/dev_pc_67/G tapP[11] 0
+C1224 ring_pair_0/dev_pc_8/G ring_pair_0/dev_pc_55/G 0
+C1225 vinp tapP[2] 0.10217f
+C1226 vinp tapP[9] 0.10287f
+C1227 ring_pair_0/dev_ps_44/S ring_pair_0/dev_pc_85/G 0.0928f
+C1228 vinp ring_pair_0/dev_ns_16/S 0
+C1229 ring_pair_0/dev_ns_37/S VDPWR 0.00471f
+C1230 tapN[2] ring_pair_0/dev_pc_9/G 0.04662f
+C1231 ring_pair_0/dev_pc_83/G ring_pair_0/dev_pc_88/G 0.03764f
+C1232 ring_pair_0/dev_ps_9/S ring_pair_0/dev_pc_6/G 0
+C1233 ring_pair_0/dev_ns_33/S ring_pair_0/dev_ps_33/S 0.00667f
+C1234 ring_pair_0/dev_pc_2/G ring_pair_0/dev_pc_6/G 0.24223f
+C1235 ring_pair_0/dev_pc_47/G ring_pair_0/dev_pc_55/G 0
+C1236 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_38/G 0.03764f
+C1237 vinp ring_pair_0/dev_ns_17/S 0
+C1238 tapN[10] ring_pair_0/dev_pc_24/G 0
+C1239 tapP[2] ring_pair_0/dev_pc_7/G 0.00193f
+C1240 ring_pair_0/dev_pc_63/G ring_pair_0/dev_ps_37/S 0.02132f
+C1241 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_40/G 0
+C1242 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_13/S 0.07497f
+C1243 ring_pair_0/dev_pc_69/G VDPWR 0.68894f
+C1244 ring_pair_0/dev_ps_9/G tapP[5] 0.15211f
+C1245 ring_pair_0/dev_pc_67/G tapP[2] 0.02468f
+C1246 vinp ring_pair_0/dev_ns_13/S 0
+C1247 ring_pair_0/dev_pc_61/G ring_pair_0/dev_ns_36/S 0.04389f
+C1248 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_9/G 0.30115f
+C1249 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_26/G 0
+C1250 ring_pair_0/dev_pc_43/G ring_pair_0/dev_ps_45/S 0
+C1251 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_34/G 0.00629f
+C1252 ring_pair_0/dev_ps_34/S ring_pair_0/dev_pc_9/G 0
+C1253 ring_pair_0/dev_pc_69/G ring_pair_0/dev_ps_45/G 0.04057f
+C1254 ring_pair_0/dev_pc_55/G ring_pair_0/dev_pc_56/G 0.18139f
+C1255 vinp tapN[12] 0
+C1256 VDPWR ring_pair_0/dev_pc_59/G 0.51215f
+C1257 ring_pair_0/dev_pc_89/G ring_pair_0/dev_pc_88/G 0.18179f
+C1258 VDPWR ring_pair_0/dev_ns_42/S 0.00471f
+C1259 tapN[0] ring_pair_0/dev_ps_9/G 0.00665f
+C1260 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_23/G 0.01999f
+C1261 ring_pair_0/dev_ps_38/S ring_pair_0/dev_pc_73/G 0.02149f
+C1262 VDPWR tapP[3] 0.44572f
+C1263 ring_pair_0/dev_pc_7/G tapN[12] 0
+C1264 vinp tapP[12] 0.10217f
+C1265 ring_pair_0/dev_pc_85/G ring_pair_0/dev_pc_88/G 0.60191f
+C1266 tapP[8] ring_pair_0/dev_pc_42/G 0.08032f
+C1267 vinp vinn 0.00526f
+C1268 ring_pair_0/dev_pc_6/G ring_pair_0/dev_ps_33/S 0
+C1269 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_59/G 0.02068f
+C1270 tapN[1] VDPWR 0.22342f
+C1271 vinp ring_pair_0/dev_ns_45/S 0.03654f
+C1272 tapP[9] ring_pair_0/dev_pc_88/G 0
+C1273 ring_pair_0/dev_pc_7/G tapP[12] 0
+C1274 ring_pair_0/dev_pc_40/G tapN[9] 0.04472f
+C1275 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_9/G 0
+C1276 ring_pair_0/dev_pc_43/G tapP[7] 0
+C1277 ring_pair_0/dev_ps_45/G tapP[3] 0.02828f
+C1278 ring_pair_0/dev_pc_7/G vinn 0.17958f
+C1279 ring_pair_0/dev_pc_29/G tapN[10] 0.31544f
+C1280 tapN[11] tapP[3] 0.00987f
+C1281 ring_pair_0/dev_pc_67/G tapP[12] 0.052f
+C1282 ring_pair_0/dev_pc_32/G ring_pair_0/dev_pc_28/G 0
+C1283 ring_pair_0/dev_pc_79/G ring_pair_0/dev_ns_40/S 0.01385f
+C1284 ring_pair_0/dev_pc_71/G tapP[4] 0.31544f
+C1285 ring_pair_0/dev_pc_34/G tapN[9] 0
+C1286 tapP[10] ring_pair_0/dev_pc_74/G 0.31544f
+C1287 vinp ring_pair_0/dev_pc_87/G 0.21119f
+C1288 ring_pair_0/dev_ps_41/S tapP[10] 0
+C1289 VDPWR ring_pair_0/dev_pc_26/G 0.50103f
+C1290 tapP[8] ring_pair_0/dev_ps_21/S 0
+C1291 ring_pair_0/dev_ps_44/S ring_pair_0/dev_pc_87/G 0
+C1292 ring_pair_0/dev_ps_45/G VDPWR 19.58297f
+C1293 tapP[5] ring_pair_0/dev_pc_30/G 0.00193f
+C1294 ring_pair_0/dev_pc_55/G ring_pair_0/dev_pc_51/G 0.31345f
+C1295 tapN[11] VDPWR 0.22342f
+C1296 ring_pair_0/dev_ns_18/S ring_pair_0/dev_pc_36/G 0.04306f
+C1297 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_36/G 0.19341f
+C1298 ring_pair_0/dev_ps_35/S ring_pair_0/dev_ns_35/S 0.00667f
+C1299 vinp ring_pair_0/dev_ns_35/S 0.04272f
+C1300 ring_pair_0/dev_pc_61/G ring_pair_0/dev_pc_65/G 0
+C1301 ring_pair_0/dev_pc_86/G ring_pair_0/dev_pc_41/G 0.00613f
+C1302 vinp ring_pair_0/dev_ps_9/G 5.27375f
+C1303 ring_pair_0/dev_pc_85/G ring_pair_0/dev_pc_77/G 0
+C1304 tapP[10] ring_pair_0/dev_pc_36/G 0
+C1305 vinp ring_pair_0/dev_pc_35/G 0.00154f
+C1306 ring_pair_0/dev_pc_20/G ring_pair_0/dev_pc_28/G 0
+C1307 ring_pair_0/dev_pc_7/G ring_pair_0/dev_ns_35/S 0
+C1308 ring_pair_0/dev_pc_80/G VDPWR 0.51215f
+C1309 ring_pair_0/dev_pc_23/G ring_pair_0/dev_pc_30/G 0
+C1310 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_28/G 0
+C1311 ring_pair_0/dev_ns_12/S ring_pair_0/dev_pc_9/G 0
+C1312 ring_pair_0/dev_ps_18/S tapP[5] 0
+C1313 vinp ring_pair_0/dev_ns_21/S 0
+C1314 ring_pair_0/dev_ns_45/S ring_pair_0/dev_pc_88/G 0.04429f
+C1315 vinp tapN[4] 0
+C1316 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_7/G 0.04011f
+C1317 ring_pair_0/dev_pc_2/G vinn 0.02045f
+C1318 ring_pair_0/dev_pc_9/G ring_pair_0/dev_nc_9/D 0.01384f
+C1319 tapN[5] vinn 0.06097f
+C1320 vinp tapP[1] 0.10287f
+C1321 ring_pair_0/dev_pc_68/G tapP[11] 0.31544f
+C1322 vinp ring_pair_0/dev_pc_63/G 0.28436f
+C1323 ring_pair_0/dev_pc_67/G ring_pair_0/dev_ps_9/G 0.00254f
+C1324 tapP[10] ring_pair_0/dev_pc_75/G 0.0769f
+C1325 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_80/G 0.02068f
+C1326 ring_pair_0/dev_pc_63/G ring_pair_0/dev_ps_35/S 0.07959f
+C1327 ring_pair_0/dev_ns_19/S VDPWR 0.00471f
+C1328 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_81/G 0
+C1329 VDPWR tapP[13] 0.44576f
+C1330 ring_pair_0/dev_pc_75/G ring_pair_0/dev_pc_28/G 0
+C1331 vinp ring_pair_0/dev_ns_38/S 0.04272f
+C1332 ring_pair_0/dev_pc_7/G tapP[1] 0.04563f
+C1333 ring_pair_0/dev_pc_20/G ring_pair_0/dev_pc_24/G 0.21809f
+C1334 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_63/G 0
+C1335 ring_pair_0/dev_pc_88/G ring_pair_0/dev_pc_87/G 0.61835f
+C1336 ring_pair_0/dev_pc_55/G ring_pair_0/dev_pc_53/G 0.05047f
+C1337 tapP[10] ring_pair_0/dev_pc_81/G 0
+C1338 ring_pair_0/dev_pc_63/G ring_pair_0/dev_ps_36/S 0
+C1339 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_63/G 0.31345f
+C1340 ring_pair_0/dev_pc_4/G ring_pair_0/dev_pc_55/G 0.00246f
+C1341 ring_pair_0/dev_pc_83/G ring_pair_0/dev_pc_40/G 0
+C1342 ring_pair_0/dev_ps_45/G tapP[13] 0.02772f
+C1343 tapP[4] tapN[10] 0.00987f
+C1344 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_14/G 0
+C1345 ring_pair_0/dev_ps_16/S ring_pair_0/dev_pc_28/G 0.01321f
+C1346 ring_pair_0/dev_pc_67/G ring_pair_0/dev_ns_38/S 0.04429f
+C1347 ring_pair_0/dev_pc_22/G ring_pair_0/dev_ns_15/S 0.04429f
+C1348 tapN[0] ring_pair_0/dev_ns_8/S 0
+C1349 ring_pair_0/dev_pc_75/G ring_pair_0/dev_pc_24/G 0
+C1350 ring_pair_0/dev_ps_12/S ring_pair_0/dev_pc_18/G 0.07959f
+C1351 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_61/G 0
+C1352 ring_pair_0/dev_ps_17/S ring_pair_0/dev_ns_17/S 0.00667f
+C1353 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_88/G 0
+C1354 ring_pair_0/dev_pc_29/G ring_pair_0/dev_pc_74/G 0.00613f
+C1355 ring_pair_0/dev_ns_15/S ring_pair_0/dev_ps_15/S 0.00667f
+C1356 ring_pair_0/dev_pc_43/G ring_pair_0/dev_ps_20/S 0
+C1357 ring_pair_0/dev_pc_11/G tapN[13] 0.31544f
+C1358 ring_pair_0/dev_pc_2/G ring_pair_0/dev_ps_9/G 0.01999f
+C1359 ring_pair_0/dev_ps_9/G tapN[5] 0.00721f
+C1360 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_9/S 0.07497f
+C1361 vinp ring_pair_0/dev_pc_30/G 0.00202f
+C1362 vinp tapN[8] 0
+C1363 ring_pair_0/dev_pc_14/G ring_pair_0/dev_pc_18/G 0.23466f
+C1364 ring_pair_0/dev_ps_16/S ring_pair_0/dev_pc_24/G 0.02172f
+C1365 ring_pair_0/dev_pc_61/G ring_pair_0/dev_pc_59/G 0.06146f
+C1366 ring_pair_0/dev_ns_39/S ring_pair_0/dev_ps_39/S 0.00667f
+C1367 ring_pair_0/dev_ps_8/S VDPWR 0.2509f
+C1368 ring_pair_0/dev_pc_29/G ring_pair_0/dev_pc_36/G 0
+C1369 ring_pair_0/dev_pc_59/G tapN[2] 0.00293f
+C1370 ring_pair_0/dev_pc_40/G ring_pair_0/dev_pc_85/G 0.00623f
+C1371 ring_pair_0/dev_pc_71/G ring_pair_0/dev_pc_79/G 0
+C1372 tapN[3] ring_pair_0/dev_ns_14/S 0
+C1373 vinp ring_pair_0/dev_ps_18/S 0
+C1374 ring_pair_0/dev_pc_73/G ring_pair_0/dev_pc_23/G 0
+C1375 tapP[9] ring_pair_0/dev_pc_40/G 0.05055f
+C1376 ring_pair_0/dev_pc_36/G ring_pair_0/dev_ns_43/S 0
+C1377 ring_pair_0/dev_pc_36/G ring_pair_0/dev_pc_41/G 0
+C1378 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_85/G 0.00246f
+C1379 ring_pair_0/dev_pc_29/G ring_pair_0/dev_pc_75/G 0
+C1380 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_77/G 0.00188f
+C1381 VDPWR ring_pair_0/dev_pc_61/G 0.99712f
+C1382 tapP[9] ring_pair_0/dev_pc_34/G 0
+C1383 vinp ring_pair_0/dev_ns_8/S 0
+C1384 tapP[6] ring_pair_0/dev_pc_83/G 0.31544f
+C1385 VDPWR tapN[2] 0.22342f
+C1386 ring_pair_0/dev_pc_9/S tapN[1] 0.03918f
+C1387 tapP[10] ring_pair_0/dev_ns_41/S 0
+C1388 tapP[14] ring_pair_0/dev_pc_55/G 0.052f
+C1389 ring_pair_0/dev_pc_34/G ring_pair_0/dev_ns_17/S 0.01385f
+C1390 ring_pair_0/dev_ps_45/G ring_pair_0/dev_pc_61/G 0.27571f
+C1391 tapN[5] ring_pair_0/dev_pc_30/G 0.00553f
+C1392 ring_pair_0/dev_pc_43/G ring_pair_0/dev_ns_20/S 0
+C1393 ring_pair_0/dev_pc_9/S VDPWR 0.81598f
+C1394 ring_pair_0/dev_pc_81/G ring_pair_0/dev_ns_43/S 0.02018f
+C1395 ring_pair_0/dev_pc_43/G ring_pair_0/dev_pc_42/G 0.61743f
+C1396 tapP[8] VDPWR 0.44576f
+C1397 ring_pair_0/dev_pc_68/G ring_pair_0/dev_ps_9/G 0.00188f
+C1398 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_59/G 0.04076f
+C1399 ring_pair_0/dev_ps_31/S VDPWR 0.2509f
+C1400 vinp ring_pair_0/dev_ps_22/S 0.00294f
+C1401 ring_pair_0/dev_ns_44/S VDPWR 0.00471f
+C1402 VDPWR ring_pair_0/dev_ps_34/S 0.2509f
+C1403 tapP[0] ring_pair_0/dev_pc_55/G 0.02468f
+C1404 ring_pair_0/dev_pc_40/G vinn 0.0364f
+C1405 ring_pair_0/dev_ps_17/S ring_pair_0/dev_ps_9/G 0.07497f
+C1406 tapN[3] ring_pair_0/dev_pc_28/G 0
+C1407 ring_pair_0/dev_pc_9/G ring_pair_0/dev_pc_24/G 0
+C1408 vinp ring_pair_0/dev_pc_73/G 0.0364f
+C1409 tapP[8] ring_pair_0/dev_ps_45/G 0.02828f
+C1410 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_31/S 0.07511f
+C1411 ring_pair_0/dev_pc_68/G ring_pair_0/dev_pc_63/G 0
+C1412 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_34/S 0.07511f
+C1413 tapP[6] ring_pair_0/dev_pc_85/G 0.04618f
+C1414 ring_pair_0/dev_pc_34/G vinn 0.03743f
+C1415 ring_pair_0/dev_pc_50/G ring_pair_0/dev_pc_55/G 0.05565f
+C1416 tapP[9] tapP[6] 0.00123f
+C1417 ring_pair_0/dev_pc_61/G tapP[13] 0.05186f
+C1418 ring_pair_0/dev_pc_43/G ring_pair_0/dev_ps_21/S 0.02243f
+C1419 ring_pair_0/dev_pc_67/G ring_pair_0/dev_ps_38/S 0.08728f
+C1420 ring_pair_0/dev_pc_40/G ring_pair_0/dev_pc_87/G 0
+C1421 ring_pair_0/dev_pc_57/G VDPWR 0.68894f
+C1422 ring_pair_0/dev_pc_8/G ring_pair_0/dev_pc_9/G 0
+C1423 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_73/G 0.30161f
+C1424 tapN[2] tapP[13] 0.00987f
+C1425 ring_pair_0/dev_pc_77/G ring_pair_0/dev_pc_30/G 0
+C1426 ring_pair_0/dev_pc_34/G ring_pair_0/dev_ps_40/S 0
+C1427 vinp tapN[13] 0
+C1428 tapN[3] ring_pair_0/dev_pc_24/G 0.0395f
+C1429 vinp ring_pair_0/dev_pc_62/G 0.02045f
+C1430 VDPWR ring_pair_0/dev_ps_32/S 0.2509f
+C1431 VDPWR ring_pair_0/dev_ps_19/S 0.2509f
+C1432 ring_pair_0/dev_pc_57/G ring_pair_0/dev_ps_45/G 0.04057f
+C1433 tapP[4] ring_pair_0/dev_pc_75/G 0.0548f
+C1434 ring_pair_0/dev_pc_7/G tapN[13] 0.04496f
+C1435 ring_pair_0/dev_pc_9/S tapP[13] 0
+C1436 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_40/G 0.27526f
+C1437 ring_pair_0/dev_pc_35/G ring_pair_0/dev_pc_40/G 0.06147f
+C1438 ring_pair_0/dev_ps_45/G ring_pair_0/dev_ps_32/S 0.07511f
+C1439 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_62/G 0.05565f
+C1440 ring_pair_0/dev_pc_56/G ring_pair_0/dev_pc_9/G 0
+C1441 ring_pair_0/dev_pc_22/G tapP[11] 0
+C1442 ring_pair_0/dev_ns_21/S ring_pair_0/dev_pc_40/G 0.04389f
+C1443 ring_pair_0/dev_ps_16/S tapP[4] 0
+C1444 ring_pair_0/dev_pc_34/G ring_pair_0/dev_ps_9/G 0.17629f
+C1445 ring_pair_0/dev_ps_17/S ring_pair_0/dev_pc_30/G 0
+C1446 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_35/G 0.18139f
+C1447 ring_pair_0/dev_ns_33/S ring_pair_0/dev_pc_55/G 0.00123f
+C1448 ring_pair_0/dev_ns_40/S ring_pair_0/dev_ps_40/S 0.00667f
+C1449 tapP[11] ring_pair_0/dev_ps_15/S 0
+C1450 tapP[6] vinn 0.12487f
+C1451 ring_pair_0/dev_ns_22/S ring_pair_0/dev_pc_42/G 0.0239f
+C1452 ring_pair_0/dev_ns_12/S VDPWR 0.00471f
+C1453 ring_pair_0/dev_pc_34/G tapN[4] 0
+C1454 tapP[11] ring_pair_0/dev_pc_18/G 0
+C1455 ring_pair_0/dev_pc_22/G tapP[2] 0.0307f
+C1456 VDPWR ring_pair_0/dev_nc_9/D 0.00471f
+C1457 ring_pair_0/dev_pc_57/G tapP[13] 0.0765f
+C1458 ring_pair_0/dev_pc_5/G ring_pair_0/dev_pc_55/G 0
+C1459 ring_pair_0/dev_ns_19/S ring_pair_0/dev_ps_19/S 0.00667f
+C1460 ring_pair_0/dev_pc_43/G tapN[6] 0.03502f
+C1461 tapP[6] ring_pair_0/dev_pc_87/G 0.05279f
+C1462 vinp ring_pair_0/dev_pc_11/G 0.00154f
+C1463 ring_pair_0/dev_pc_42/G ring_pair_0/dev_ns_43/S 0
+C1464 ring_pair_0/dev_pc_41/G ring_pair_0/dev_pc_42/G 0.05982f
+C1465 ring_pair_0/dev_pc_22/G ring_pair_0/dev_ns_13/S 0.01385f
+C1466 tapP[2] ring_pair_0/dev_pc_18/G 0.05251f
+C1467 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_32/G 0
+C1468 ring_pair_0/dev_pc_65/G ring_pair_0/dev_pc_24/G 0
+C1469 ring_pair_0/dev_pc_7/G ring_pair_0/dev_pc_11/G 0.05476f
+C1470 ring_pair_0/dev_pc_40/G ring_pair_0/dev_pc_30/G 0
+C1471 ring_pair_0/dev_pc_73/G ring_pair_0/dev_pc_77/G 0
+C1472 ring_pair_0/dev_pc_55/G ring_pair_0/dev_pc_6/G 0
+C1473 ring_pair_0/dev_pc_22/G tapN[12] 0.04486f
+C1474 ring_pair_0/dev_pc_89/G tapN[7] 0.00293f
+C1475 tapP[11] ring_pair_0/dev_ps_39/S 0
+C1476 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_74/G 0.05565f
+C1477 tapP[6] ring_pair_0/dev_ps_9/G 0.15155f
+C1478 tapN[8] ring_pair_0/dev_pc_40/G 0
+C1479 ring_pair_0/dev_ps_41/S ring_pair_0/dev_pc_79/G 0.00835f
+C1480 ring_pair_0/dev_pc_88/G ring_pair_0/dev_ps_43/S 0
+C1481 ring_pair_0/dev_pc_18/G ring_pair_0/dev_ns_13/S 0.01005f
+C1482 ring_pair_0/dev_pc_67/G ring_pair_0/dev_ps_37/S 0.00835f
+C1483 ring_pair_0/dev_pc_22/G tapP[12] 0.05111f
+C1484 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_61/G 0.00246f
+C1485 vinp ring_pair_0/dev_ps_13/S 0
+C1486 VDPWR ring_pair_0/dev_ns_14/S 0.00471f
+C1487 ring_pair_0/dev_pc_69/G tapP[10] 0
+C1488 ring_pair_0/dev_pc_22/G vinn 0.03743f
+C1489 ring_pair_0/dev_pc_34/G ring_pair_0/dev_pc_30/G 0.31254f
+C1490 vinp tapP[5] 0.10287f
+C1491 ring_pair_0/dev_pc_17/G tapN[12] 0.31544f
+C1492 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_28/G 0
+C1493 ring_pair_0/dev_pc_44/G ring_pair_0/dev_pc_88/G 0.0035f
+C1494 ring_pair_0/dev_ps_34/S ring_pair_0/dev_pc_61/G 0.02149f
+C1495 ring_pair_0/dev_pc_18/G tapN[12] 0.04536f
+C1496 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_36/G 0
+C1497 ring_pair_0/dev_ns_39/S ring_pair_0/dev_pc_75/G 0.04306f
+C1498 ring_pair_0/dev_pc_17/G tapP[12] 0.00372f
+C1499 ring_pair_0/dev_pc_68/G ring_pair_0/dev_pc_73/G 0.06147f
+C1500 ring_pair_0/dev_pc_18/G tapP[12] 0.08032f
+C1501 tapN[0] vinp 0
+C1502 ring_pair_0/dev_pc_17/G vinn 0.02045f
+C1503 ring_pair_0/dev_ns_37/S ring_pair_0/dev_pc_24/G 0
+C1504 vinp ring_pair_0/dev_pc_23/G 0.00154f
+C1505 ring_pair_0/dev_pc_79/G ring_pair_0/dev_ps_42/S 0.08728f
+C1506 ring_pair_0/dev_pc_18/G vinn 0.28436f
+C1507 ring_pair_0/dev_pc_34/G ring_pair_0/dev_ps_18/S 0.00835f
+C1508 ring_pair_0/dev_pc_9/S ring_pair_0/dev_ps_34/S 0
+C1509 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_75/G 0.31345f
+C1510 ring_pair_0/dev_pc_6/D VDPWR 0.2509f
+C1511 ring_pair_0/dev_pc_57/G ring_pair_0/dev_pc_61/G 0.30727f
+C1512 ring_pair_0/dev_pc_69/G ring_pair_0/dev_pc_24/G 0.00635f
+C1513 ring_pair_0/dev_ns_44/S tapP[8] 0
+C1514 tapP[3] ring_pair_0/dev_pc_28/G 0.0307f
+C1515 ring_pair_0/dev_pc_67/G ring_pair_0/dev_pc_23/G 0.0035f
+C1516 ring_pair_0/dev_ns_18/S VDPWR 0.00471f
+C1517 ring_pair_0/dev_pc_43/G VDPWR 0.75979f
+C1518 ring_pair_0/dev_pc_79/G ring_pair_0/dev_pc_81/G 0.43792f
+C1519 ring_pair_0/dev_pc_22/G ring_pair_0/dev_ps_9/G 0.17629f
+C1520 tapP[10] VDPWR 0.44576f
+C1521 ring_pair_0/dev_pc_9/S ring_pair_0/dev_pc_57/G 0
+C1522 tapP[6] tapN[8] 0.00987f
+C1523 ring_pair_0/dev_pc_36/G tapN[9] 0.04496f
+C1524 tapN[7] vinn 0.0066f
+C1525 ring_pair_0/dev_pc_38/G ring_pair_0/dev_pc_83/G 0.00613f
+C1526 VDPWR ring_pair_0/dev_pc_28/G 0.967f
+C1527 tapN[5] tapP[5] 0.34801f
+C1528 ring_pair_0/dev_ps_9/G ring_pair_0/dev_ps_15/S 0.07497f
+C1529 ring_pair_0/dev_pc_18/G ring_pair_0/dev_ns_35/S 0
+C1530 ring_pair_0/dev_pc_49/G VDPWR 0.99576f
+C1531 tapP[3] ring_pair_0/dev_pc_24/G 0.04563f
+C1532 ring_pair_0/dev_pc_9/S ring_pair_0/dev_ps_32/S 0
+C1533 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_17/G 0.02055f
+C1534 ring_pair_0/dev_pc_22/G ring_pair_0/dev_pc_63/G 0
+C1535 ring_pair_0/dev_pc_57/G ring_pair_0/dev_ps_34/S 0.00123f
+C1536 tapP[10] ring_pair_0/dev_ps_45/G 0.02828f
+C1537 ring_pair_0/dev_ps_9/G ring_pair_0/dev_pc_18/G 0.03906f
+C1538 tapN[14] VGND 0.48169f
+C1539 ring_pair_0/dev_ps_14/S VGND 0.01292f ; **FLOATING
+C1540 ring_pair_0/dev_pc_41/G VGND 0.54926f ; **FLOATING
+C1541 ring_pair_0/dev_pc_5/G VGND 0.54926f ; **FLOATING
+C1542 ring_pair_0/dev_pc_57/G VGND 1.13954f ; **FLOATING
+C1543 tapP[12] VGND 0.77677f
+C1544 ring_pair_0/dev_pc_74/G VGND 0.54074f ; **FLOATING
+C1545 ring_pair_0/dev_pc_88/G VGND 1.07465f ; **FLOATING
+C1546 ring_pair_0/dev_ps_13/S VGND 0.01292f ; **FLOATING
+C1547 ring_pair_0/dev_ps_35/S VGND 0.01292f ; **FLOATING
+C1548 tapP[14] VGND 0.77677f
+C1549 ring_pair_0/dev_pc_50/G VGND 0.54074f ; **FLOATING
+C1550 ring_pair_0/dev_pc_62/G VGND 0.54074f ; **FLOATING
+C1551 ring_pair_0/dev_pc_79/G VGND 0.99453f ; **FLOATING
+C1552 tapP[6] VGND 0.77677f
+C1553 ring_pair_0/dev_pc_9/S VGND 1.0052f ; **FLOATING
+C1554 ring_pair_0/dev_ps_12/S VGND 0.01292f ; **FLOATING
+C1555 ring_pair_0/dev_ps_34/S VGND 0.01292f ; **FLOATING
+C1556 tapN[0] VGND 0.50897f
+C1557 ring_pair_0/dev_ns_36/S VGND 0.19788f ; **FLOATING
+C1558 ring_pair_0/dev_pc_67/G VGND 0.99968f ; **FLOATING
+C1559 tapP[4] VGND 0.77677f
+C1560 ring_pair_0/dev_pc_83/G VGND 0.54071f ; **FLOATING
+C1561 ring_pair_0/dev_pc_9/D VGND 0.01292f ; **FLOATING
+C1562 ring_pair_0/dev_ps_33/S VGND 0.01292f ; **FLOATING
+C1563 ring_pair_0/dev_ps_44/S VGND 0.01292f ; **FLOATING
+C1564 ring_pair_0/dev_pc_71/G VGND 0.54071f ; **FLOATING
+C1565 ring_pair_0/dev_pc_87/G VGND 1.27289f ; **FLOATING
+C1566 ring_pair_0/dev_ns_43/S VGND 0.19788f ; **FLOATING
+C1567 ring_pair_0/dev_pc_2/G VGND 0.54923f ; **FLOATING
+C1568 ring_pair_0/dev_pc_6/D VGND 0.01292f ; **FLOATING
+C1569 ring_pair_0/dev_ps_21/S VGND 0.01292f ; **FLOATING
+C1570 ring_pair_0/dev_ps_32/S VGND 0.01292f ; **FLOATING
+C1571 ring_pair_0/dev_pc_6/G VGND 1.20938f ; **FLOATING
+C1572 ring_pair_0/dev_pc_4/G VGND 1.03996f ; **FLOATING
+C1573 tapP[9] VGND 0.77677f
+C1574 ring_pair_0/dev_ps_20/S VGND 0.01292f ; **FLOATING
+C1575 ring_pair_0/dev_ps_42/S VGND 0.01292f ; **FLOATING
+C1576 VDPWR VGND 97.2072f
+C1577 ring_pair_0/dev_ps_41/S VGND 0.01292f ; **FLOATING
+C1578 ring_pair_0/dev_ps_40/S VGND 0.01292f ; **FLOATING
+C1579 ring_pair_0/dev_ns_19/S VGND 0.19788f ; **FLOATING
+C1580 ring_pair_0/dev_ns_18/S VGND 0.19788f ; **FLOATING
+C1581 ring_pair_0/dev_ns_17/S VGND 0.19788f ; **FLOATING
+C1582 ring_pair_0/dev_ns_39/S VGND 0.19788f ; **FLOATING
+C1583 ring_pair_0/dev_ns_16/S VGND 0.19788f ; **FLOATING
+C1584 ring_pair_0/dev_ns_15/S VGND 0.19788f ; **FLOATING
+C1585 ring_pair_0/dev_ns_37/S VGND 0.19788f ; **FLOATING
+C1586 ring_pair_0/dev_ns_14/S VGND 0.19788f ; **FLOATING
+C1587 ring_pair_0/dev_ns_13/S VGND 0.19788f ; **FLOATING
+C1588 ring_pair_0/dev_ns_35/S VGND 0.19788f ; **FLOATING
+C1589 ring_pair_0/dev_ns_12/S VGND 0.19788f ; **FLOATING
+C1590 ring_pair_0/dev_ps_45/G VGND 8.59013f ; **FLOATING
+C1591 vinp VGND 12.86591f
+C1592 ring_pair_0/dev_ns_34/S VGND 0.19788f ; **FLOATING
+C1593 ring_pair_0/dev_ns_45/S VGND 0.19788f ; **FLOATING
+C1594 ring_pair_0/dev_nc_9/D VGND 0.19788f ; **FLOATING
+C1595 ring_pair_0/dev_ns_33/S VGND 0.19788f ; **FLOATING
+C1596 ring_pair_0/dev_ns_44/S VGND 0.19788f ; **FLOATING
+C1597 ring_pair_0/dev_ps_31/S VGND 0.01292f ; **FLOATING
+C1598 ring_pair_0/dev_ns_21/S VGND 0.19788f ; **FLOATING
+C1599 ring_pair_0/dev_nc_6/D VGND 0.19788f ; **FLOATING
+C1600 ring_pair_0/dev_ns_32/S VGND 0.19788f ; **FLOATING
+C1601 ring_pair_0/dev_ps_38/S VGND 0.01292f ; **FLOATING
+C1602 ring_pair_0/dev_ns_20/S VGND 0.19788f ; **FLOATING
+C1603 ring_pair_0/dev_ns_42/S VGND 0.19788f ; **FLOATING
+C1604 ring_pair_0/dev_ps_45/S VGND 0.01292f ; **FLOATING
+C1605 ring_pair_0/dev_ns_41/S VGND 0.19788f ; **FLOATING
+C1606 ring_pair_0/dev_ps_22/S VGND 0.01292f ; **FLOATING
+C1607 ring_pair_0/dev_ns_40/S VGND 0.19788f ; **FLOATING
+C1608 ring_pair_0/dev_ns_9/S VGND 0.19788f ; **FLOATING
+C1609 ring_pair_0/dev_ns_8/S VGND 0.19788f ; **FLOATING
+C1610 ring_pair_0/dev_pc_20/G VGND 0.54924f ; **FLOATING
+C1611 ring_pair_0/dev_ps_36/S VGND 0.01292f ; **FLOATING
+C1612 tapN[10] VGND 0.48169f
+C1613 ring_pair_0/dev_pc_24/G VGND 1.13699f ; **FLOATING
+C1614 ring_pair_0/dev_ps_43/S VGND 0.01292f ; **FLOATING
+C1615 ring_pair_0/dev_pc_43/G VGND 1.02617f ; **FLOATING
+C1616 ring_pair_0/dev_pc_29/G VGND 0.54926f ; **FLOATING
+C1617 tapN[12] VGND 0.48169f
+C1618 tapN[6] VGND 0.48169f
+C1619 ring_pair_0/dev_pc_34/G VGND 1.00005f ; **FLOATING
+C1620 ring_pair_0/dev_pc_17/G VGND 0.54926f ; **FLOATING
+C1621 ring_pair_0/dev_pc_38/G VGND 0.54923f ; **FLOATING
+C1622 tapN[4] VGND 0.48169f
+C1623 ring_pair_0/dev_pc_22/G VGND 1.0052f ; **FLOATING
+C1624 ring_pair_0/dev_pc_55/G VGND 0.99968f ; **FLOATING
+C1625 tapP[2] VGND 0.77677f
+C1626 ring_pair_0/dev_pc_42/G VGND 1.39535f ; **FLOATING
+C1627 ring_pair_0/dev_pc_26/G VGND 0.54923f ; **FLOATING
+C1628 tapN[2] VGND 0.48169f
+C1629 tapP[0] VGND 0.7801f
+C1630 ring_pair_0/dev_pc_59/G VGND 0.54071f ; **FLOATING
+C1631 ring_pair_0/dev_pc_75/G VGND 1.20257f ; **FLOATING
+C1632 ring_pair_0/dev_ps_9/G VGND 4.47852f ; **FLOATING
+C1633 vinn VGND 19.40118f
+C1634 tapN[9] VGND 0.48169f
+C1635 ring_pair_0/dev_pc_30/G VGND 1.19827f ; **FLOATING
+C1636 ring_pair_0/dev_pc_14/G VGND 0.54923f ; **FLOATING
+C1637 ring_pair_0/dev_pc_47/G VGND 0.54071f ; **FLOATING
+C1638 ring_pair_0/dev_pc_63/G VGND 1.20257f ; **FLOATING
+C1639 tapP[11] VGND 0.77677f
+C1640 ring_pair_0/dev_pc_80/G VGND 0.54072f ; **FLOATING
+C1641 ring_pair_0/dev_ps_19/S VGND 0.01292f ; **FLOATING
+C1642 ring_pair_0/dev_pc_35/G VGND 0.54924f ; **FLOATING
+C1643 tapN[11] VGND 0.48169f
+C1644 ring_pair_0/dev_pc_23/G VGND 0.54924f ; **FLOATING
+C1645 ring_pair_0/dev_pc_18/G VGND 1.19827f ; **FLOATING
+C1646 ring_pair_0/dev_pc_9/G VGND 0.91836f ; **FLOATING
+C1647 ring_pair_0/dev_pc_51/G VGND 1.21339f ; **FLOATING
+C1648 ring_pair_0/dev_ns_31/S VGND 0.19788f ; **FLOATING
+C1649 ring_pair_0/dev_pc_49/G VGND 1.0234f ; **FLOATING
+C1650 tapP[13] VGND 0.77677f
+C1651 ring_pair_0/dev_pc_68/G VGND 0.54072f ; **FLOATING
+C1652 ring_pair_0/dev_pc_85/G VGND 0.87412f ; **FLOATING
+C1653 tapP[7] VGND 1.01474f
+C1654 ring_pair_0/dev_ps_18/S VGND 0.01292f ; **FLOATING
+C1655 tapN[7] VGND 0.51898f
+C1656 ring_pair_0/dev_pc_40/G VGND 0.88432f ; **FLOATING
+C1657 tapN[13] VGND 0.48169f
+C1658 ring_pair_0/dev_pc_56/G VGND 0.54072f ; **FLOATING
+C1659 ring_pair_0/dev_ns_38/S VGND 0.19788f ; **FLOATING
+C1660 ring_pair_0/dev_pc_73/G VGND 0.91033f ; **FLOATING
+C1661 tapP[5] VGND 0.77681f
+C1662 ring_pair_0/dev_pc_89/G VGND 0.5733f ; **FLOATING
+C1663 ring_pair_0/dev_ps_9/S VGND 0.01292f ; **FLOATING
+C1664 tapN[1] VGND 0.48169f
+C1665 ring_pair_0/dev_ps_17/S VGND 0.01292f ; **FLOATING
+C1666 ring_pair_0/dev_ps_39/S VGND 0.01292f ; **FLOATING
+C1667 ring_pair_0/dev_pc_44/G VGND 0.58718f ; **FLOATING
+C1668 tapN[5] VGND 0.48169f
+C1669 ring_pair_0/dev_pc_28/G VGND 0.91836f ; **FLOATING
+C1670 ring_pair_0/dev_pc_11/G VGND 0.54924f ; **FLOATING
+C1671 ring_pair_0/dev_pc_61/G VGND 0.91033f ; **FLOATING
+C1672 tapP[3] VGND 0.77681f
+C1673 ring_pair_0/dev_pc_77/G VGND 0.54072f ; **FLOATING
+C1674 ring_pair_0/dev_ps_8/S VGND 0.01292f ; **FLOATING
+C1675 ring_pair_0/dev_pc_8/G VGND 0.55628f ; **FLOATING
+C1676 ring_pair_0/dev_ps_16/S VGND 0.01292f ; **FLOATING
+C1677 ring_pair_0/dev_pc_81/G VGND 1.13003f ; **FLOATING
+C1678 tapP[8] VGND 0.77677f
+C1679 ring_pair_0/dev_ns_22/S VGND 0.2006f ; **FLOATING
+C1680 ring_pair_0/dev_pc_32/G VGND 0.54924f ; **FLOATING
+C1681 tapN[3] VGND 0.48169f
+C1682 ring_pair_0/dev_pc_7/G VGND 1.13699f ; **FLOATING
+C1683 tapP[1] VGND 0.77681f
+C1684 ring_pair_0/dev_pc_65/G VGND 0.54072f ; **FLOATING
+C1685 ring_pair_0/dev_ps_15/S VGND 0.01292f ; **FLOATING
+C1686 ring_pair_0/dev_ps_37/S VGND 0.01292f ; **FLOATING
+C1687 tapN[8] VGND 0.48169f
+C1688 ring_pair_0/dev_pc_36/G VGND 1.12747f ; **FLOATING
+C1689 ring_pair_0/dev_pc_53/G VGND 0.54072f ; **FLOATING
+C1690 ring_pair_0/dev_pc_69/G VGND 1.13954f ; **FLOATING
+C1691 tapP[10] VGND 0.77677f
+C1692 ring_pair_0/dev_pc_86/G VGND 0.54074f ; **FLOATING
+.ends

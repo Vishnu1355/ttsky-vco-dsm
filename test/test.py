@@ -5,7 +5,7 @@ from cocotb.clock import Clock
 from cocotb.triggers import RisingEdge, ClockCycles
 import golden as G, ring_vectors as R, vco_model as mdl
 
-T1, T2 = 20, 31                       # even-order trim (2^-8 - 2^-11), see proposal
+T1, T2 = 0x1e, 0x1f                   # even-order trim, best for the post-layout ring_pair at Vcm 1.04 V (Option A)
 
 async def reset(dut, ui=0, uio=0):
     cocotb.start_soon(Clock(dut.clk, 20, unit="ns").start())      # 50 MHz
@@ -70,4 +70,6 @@ async def test_adc_bitexact_with_bubbles(dut):
 async def test_correction_on_off(dut):
     """Correction bypassed: still bit-exact, and the SNDR drop shows what the corrector buys."""
     s_off = await adc_run(dut, bypass=1, bubble_rate=0.0)
-    assert s_off < 55.0, s_off
+    s_on = await adc_run(dut, bypass=0, bubble_rate=0.0)
+    dut._log.info(f"correction buys {s_on - s_off:.1f} dB ({s_off:.1f} -> {s_on:.1f})")
+    assert s_off < 70.0 and s_on > s_off + 3.0, (s_off, s_on)

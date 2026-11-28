@@ -1,22 +1,23 @@
 /*
  * Copyright (c) 2026 Vishnu
  * SPDX-License-Identifier: Apache-2.0
+ *
+ * Port list of the hardened analog/mixed-signal tile (black box for Tiny Tapeout).
+ * Contents: pseudo-differential pair of 15-stage ring VCOs (ua[0] = Vin+, ua[1] = Vin-) + the ring-VCO
+ * delta-sigma digital back end (sinc2 /64, shift-add droop fix, cubic corrector k3 = 2^-5 - 2^-7). Layout: gds/, lef/.
  */
-
 `default_nettype none
-
-module tt_um_vco_dsm (
+module tt_um_vishnu1355_vco_dsm (
     input  wire       VGND,
-    input  wire       VDPWR,    // 1.8v power supply
-    input  wire [7:0] ui_in,    // Dedicated inputs
-    output wire [7:0] uo_out,   // Dedicated outputs
-    input  wire [7:0] uio_in,   // IOs: Input path
-    output wire [7:0] uio_out,  // IOs: Output path
-    output wire [7:0] uio_oe,   // IOs: Enable path (active high: 0=input, 1=output)
-    inout  wire [7:0] ua,       // Analog pins, only ua[5:0] can be used
-    input  wire       ena,      // always 1 when the design is powered, so you can ignore it
-    input  wire       clk,      // clock
-    input  wire       rst_n     // reset_n - low to reset
+    input  wire       VPWR,     // 1.8 V (VDPWR)
+    input  wire [7:0] ui_in,
+    output wire [7:0] uo_out,
+    input  wire [7:0] uio_in,
+    output wire [7:0] uio_out,
+    output wire [7:0] uio_oe,
+    inout  wire [7:0] ua,
+    input  wire       ena,
+    input  wire       clk,
+    input  wire       rst_n
 );
-
 endmodule

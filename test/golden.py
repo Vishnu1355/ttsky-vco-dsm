@@ -50,7 +50,7 @@ def backend(d, t1=0, t2=0, bypass=False):
             if not bypass:
                 sg = y < 0; a = min(-y if sg else y, MASKF)
                 p2 = smul(a, a); p3 = smul(a, p2)
-                t3 = (p3 >> 3) - (p3 >> 7)
+                t3 = (p3 >> 5) - (p3 >> 7)   # Option A: k3 = 2^-5 - 2^-7 (was p3 >> 3)
                 o = y + (-t3 if sg else t3)
                 for tt in (t1, t2):
                     if (tt >> 4) & 1:

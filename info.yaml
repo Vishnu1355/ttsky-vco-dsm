@@ -14,16 +14,10 @@ project:
   uses_vapwr: false
 
   # Must start with tt_um_ and should include your GitHub username, e.g. tt_um_<username>_vco_dsm
-  top_module:  "tt_um_vco_dsm"
+  top_module:  "tt_um_vishnu1355_vco_dsm"
 
   source_files:
     - "project.v"
-    - "vco_dsm_digital.v"
-    - "ring_sync.v"
-    - "phase_dec.v"
-    - "front_end.v"
-    - "backend.v"
-    - "out_if.v"
 
 pinout:
   # Inputs
